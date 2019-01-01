@@ -1,0 +1,70 @@
+/* font-family: "BebasNeueRegular"; */
+@font-face {
+	font-family: "BebasNeueRegular";
+	src: url("../fonts/BebasNeueRegular.eot");
+	src: url("../fonts/BebasNeueRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BebasNeueRegular.woff") format("woff"),
+	url("../fonts/BebasNeueRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "BebasNeueLight"; */
+@font-face {
+	font-family: "BebasNeueLight";
+	src: url("../fonts/BebasNeueLight.eot");
+	src: url("../fonts/BebasNeueLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BebasNeueLight.woff") format("woff"),
+	url("../fonts/BebasNeueLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "SFUIDisplay-Light"; */
+@font-face {
+	font-family: "BebasNeueThin";
+	src: url("../fonts/BebasNeueThin.eot");
+	src: url("../fonts/BebasNeueThin.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BebasNeueThin.woff") format("woff"),
+	url("../fonts/BebasNeueThin.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "BebasNeueBook"; */
+@font-face {
+	font-family: "BebasNeueBook";
+	src: url("../fonts/BebasNeueBook.eot");
+	src: url("../fonts/BebasNeueBook.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BebasNeueBook.woff") format("woff"),
+	url("../fonts/BebasNeueBook.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "BebasNeueBold"; */
+@font-face {
+	font-family: "BebasNeueBold";
+	src: url("../fonts/BebasNeueBold.eot");
+	src: url("../fonts/BebasNeueBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BebasNeueBold.woff") format("woff"),
+	url("../fonts/BebasNeueBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Calibri"; */
+@font-face {
+	font-family: "Calibri";
+	src: url("../fonts/Calibri.eot");
+	src: url("../fonts/Calibri.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Calibri.woff") format("woff"),
+	url("../fonts/Calibri.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "CalibriItalic"; */
+@font-face {
+	font-family: "CalibriItalic";
+	src: url("../fonts/CalibriItalici.eot");
+	src: url("../fonts/CalibriItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/CalibriItalic.woff") format("woff"),
+	url("../fonts/CalibriItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

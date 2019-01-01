@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="icon/favicon/favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/slick.css" />
+	<link rel="stylesheet" href="css/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+
+	<section class="main-section">
+		<header>
+			<div class="container">
+				<nav>
+					<ul>
+						<li><a href="#price">Цены</a></li>
+						<li><a href="#portfolio">Портфолио</a></li>
+						<li><a href="#reviews">Отзывы</a></li>
+						<li><a href="#contact">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="main-block">
+			<div class="container">
+				<h1>Адаптивная верстка <span>вашего проекта</span></h1>
+				<h2>Современные стандарты, валидность, оптимизация</h2>
+				<button class="btn main__btn buy">Заказать верстку</button>
+				<a href="#price" class="scroll"><img src="img/icons/scrol.png" alt="Scrol"></a>
+			</div>
+		</div>
+	</section>
+	<section class="price" id="price">
+		<div class="container">
+			<div>
+				<h2>Расчитать стоимость верстки</h2>
+				<p>Используйте калькулятор для расчета стоимости верстки</p>
+			</div>
+			<div class="price__wrap">
+				<div class="col-md-6">
+					<div class="calc">
+						<div class="lines" title="Секция - блок на странице содержащий определенную информацию, примеры секций: о компании, портфолио, галлерея, контакты.">
+							<label for="section">Количество секций на странице</label>
+							<select name="section" id="section">
+								<option data-section="1" value="1">1</option>
+								<option data-section="2" value="2">2</option>
+								<option data-section="3" value="3">3</option>
+								<option data-section="4" value="4">4</option>
+								<option data-section="5" value="5">5</option>
+								<option data-section="6" value="6">6</option>
+								<option data-section="7" value="7">7</option>
+								<option data-section="8" value="8">8</option>
+								<option data-section="9" value="9">9</option>
+								<option data-section="10" value="10">10</option>
+							</select>
+						</div>
+						<div class="lines" title="Как правило во всплывающих окнах располагают формы заказа, обратного звонка и т.д.">
+							<label for="modal">Количество всплывающих окон на сайте</label>
+							<select name="modal" id="modal">
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+						</div>
+						<div class="lines" title="Помомо основной страницы сайта, могут присутсвовать внутренние, на которых располагается дополнительная информация или каталог">
+							<label for="pages">Количество внутренних страниц</label>
+							<select name="pages" id="pages">
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+						</div>
+						<div class="lines" title="Практически ни один современный лендинг не обходится без хорошего слайдера, который используется как для фото, так и для инфрмации">
+							<label for="modal">Есть ли слайдер на сайте</label>
+							<div id="sliders">
+								<p><input name="slider" type="radio" value="0" checked="">Нет</p>
+								<p><input name="slider" id="sl" type="radio" value="1">Да</p>
+							</div>
+						</div>
+						<div class="lines" title="При подключении формы, данные будут призодить на почту">
+							<label for="order">Надо ли подключать форму заявки</label>
+							<div id="order">
+								<p><input name="order" type="radio" value="0" checked="">Нет</p>
+								<p><input name="order" id="sl" type="radio" value="1">Да</p>
+							</div>
+						</div>
+						<div class="lines">
+							<label for="animat">Нужна ли на сайте анимация</label>
+							<div id="animat">
+								<p><input name="anim" type="radio" value="0" checked="">Нет</p>
+								<p><input name="anim" id="sl" type="radio" value="1">Да</p>
+							</div>
+						</div>
+						<div class="price-final">
+							<h2>Итоговая тоимость:</h2>
+							<p>
+								<span id="final-price">300</span>
+								руб
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 land">
+					<img src="img/01.png" alt="" id="01" class="img_01 active">
+					<img src="img/02.png" alt="" id="02" class="img_02">
+					<img src="img/03.png" alt="" id="03" class="img_03">
+					<img src="img/04.png" alt="" id="04" class="img_04">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="portfolio" id="portfolio">
+		<div class="container">
+			<div class="section-title">
+				<h2>Портфолио</h2>
+				<p>Посмотреть качество верски и качество кода вы можете по ссылкам ниже</p>
+			</div>
+			<div class="slick-slider">
+				<div class="portfolio__item">
+					<a href="" target="_blank"><img src="img/3.png" alt="Sauna relax"></a>
+				</div>
+				<div class="portfolio__item">
+					<a href="03/index.html" target="_blank"><img src="img/2.png" alt="Spiky"></a>
+				</div>
+				<div class="portfolio__item">
+					<a href="02/index.html" target="_blank"><img src="img/5.png" alt="Spiky"></a>
+				</div>
+				<div class="portfolio__item">
+					<a href="01/index.html" target="_blank"><img src="img/4.png" alt="Spiky"></a>
+				</div>
+				<div class="portfolio__item">
+					<a href="04/index.html" target="_blank"><img src="img/1.png" alt="Beam light"></a>
+				</div>
+			</div>
+			<button class="btn portfolio__btn buy">Заказать верстку</button>
+		</div>
+	</section>
+	<section class="reviews" id="reviews">
+		<div class="container">
+			<h2>Отзывы</h2>
+			<p>Отзывы о моей работе</p>ajkbj
+			<div class="rew-slider">
+				<div>
+					<img src="img/rew/no-photo.png" alt="Autor">
+					<p>Софья Сергеевна</p>
+					<p class="review__text">Антон селал верстку вовремя. Все правки вносил быстро.</p>
+				</div>
+				<div>
+					<img src="img/rew/02.jpg" alt="Autor">
+					<p>vol2012</p>
+					<p class="review__text">++++++все отлично++++++</p>
+				</div>
+				<div>
+					<img src="img/rew/01.jpg" alt="Autor">
+					<p>Дмитрий Денисов</p>
+					<p class="review__text">АРаботой доволен! Подошёл к работе ответственно, обращусь ещё.</p>
+				</div>
+				<div>
+					<img src="img/rew/03.png" alt="Autor">
+					<p>Pavel Kurta</p>
+					<p class="review__text">Все отлично! Верстка веб-страницы сделана.</p>
+				</div>
+				<div>
+					<img src="img/rew/no-photo.png" alt="Autor">
+					<p>Андрей Ccc</p>
+					<p class="review__text">Антон сделал все в срок, как обещал. Замечания устранил быстро. Рекомендую!.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="section-title">
+				<h2>Контакты</h2>
+				<p>связаться со мной можно любым из способов указанным ниже</p>
+			</div>
+			<div class="contact__wrap">
+				<div class="contact__item">
+					<img src="img/icons/skype.png" alt="">
+					<a href="">mr.bourne_</a>
+				</div>
+				<div class="contact__item">
+					<img src="img/icons/tg.png" alt="">
+					<a href="https://t.me/MrBourne8">@MrBourne8</a>
+				</div>
+				<div class="contact__item">
+					<img src="img/icons/mail.png" alt="">
+					<a href="">freelancerbest@yandex.ru</a>
+				</div>
+			</div>
+			<button class="contact__btn">Написать сообщение</button>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<p>
+				&copy 2018
+				<br>Использование материалов сайта разрешается только с разрешения автора
+			</p>
+		</div>
+	</footer>
+
+	<div class="modal-callbak">
+		<div class="close-link">x</div>
+		<h2>Заказать верстку</h2>
+		<form class="callbak-form" id="form-callbak">
+			<input type="text" name="Name" placeholder="Ваше имя">
+			<input type="text" name="Phone" placeholder="Телефон" class="phone">
+			<button class="btn">Заказать</button>
+		</form>
+	</div>
+
+	<div class="modal-message">
+		<div class="close-link">x</div>
+		<h2>Напишите Ваше сообщение</h2>
+		<form class="callbak-form" id="form-callbak">
+			<input type="text" name="Name" placeholder="Ваше имя">
+			<textarea rows="10" type="textarea" name="Message" placeholder="Сообщение"></textarea>
+			<button class="btn">Отправить</button>
+		</form>
+	</div>
+
+	<div class="modal-thank">
+		<div class="close-link">x</div>
+		<h2>Спасибо!
+			<br>Наш менеджер свяжется с Вами в течении 20ти минут</h2>
+	</div>
+
+	<div class="overlay"></div>
+
+	<!--[if lt IE 9]>
+		<script src="libs/html5shiv/es5-shim.min.js"></script>
+		<script src="libs/html5shiv/html5shiv.min.js"></script>
+		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+		<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery.validate/jquery.validate.min.js"></script>
+	<script src="libs/circle-progress/circle-progress.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter -->
+	<!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter -->
+	<!-- /Google Analytics counter -->
+	<script>
+		var __REPLAIN_ = '7d2c69e9-5e6c-42af-a50b-47dbec7f8564';
+		(function (u) {
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = u;
+			var x = document.getElementsByTagName('script')[0];
+			x.parentNode.insertBefore(s, x);
+		})('https://widget.replain.cc/dist/client.js');
+	</script>
+</body>
+
+</html>

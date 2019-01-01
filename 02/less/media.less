@@ -1,0 +1,389 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.price__item {
+		margin: 10px;
+		padding: 26px;
+	}
+	.contacts__form, .contacts__item {
+		width: 50%;
+	}
+	.nav__left, .nav__right {
+		margin: 0;
+	}
+	.logo {
+		padding: 0 10px 0 0;
+		img {
+			position: inherit;
+			margin: 0;
+			max-width: 100%;
+		}
+	}
+	.header__btn {
+		margin-top: -31px;
+		margin-bottom: 5px;
+	}
+	.menu {
+		ul {
+			> :nth-child(5) {
+				display: none !important;
+			}
+			li {
+				margin: 0 !important;
+			}
+		}
+	}
+}
+	/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.gallery__wrap {
+		justify-content: space-around;
+	}
+	.gallery {
+    	padding: 36px 0 40px;
+	}
+	.gallery__category {
+		img {
+			max-width: 100%;
+		}
+	}
+	.price__item {
+		padding: 14px;
+	}
+	.contacts__bg {
+		background-size: cover;
+		padding: 10px 0
+	}
+	.contacts__numbers {
+		padding: 40px 60px;
+	}
+	.header__wrap {
+    	position: relative;
+    }
+	.menu {
+	&-link {
+	z-index: 9;
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	span, span:before, span:after {
+		display: block;
+		width: 30px;
+		height: 3px;
+		background-color: black;
+		position: absolute;
+		left: 50%;
+		margin-left: -15px;
+		top: 50%;
+		margin-top: -1px;
+
+	}
+	span:before {
+		content: '';
+		margin-top: -9px;
+		transition: all 0.2s;
+	}
+	span:after {
+		content: '';
+		margin-top: 5px;
+		transition: all 0.2s;
+	}
+	&_active span {
+		background-color: transparent;
+		&:before {
+			transform: rotate(45deg);
+			margin-top: 0;
+		}
+		&:after {
+			transform: rotate(-45deg);
+			margin-top: 0;
+		}
+	}
+    }
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 42vw;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100vw;
+    transition: all 0.5s;
+    top: 0;
+    &_active {
+		left: 60vw;
+    }
+    ul {
+    	list-style: none;
+    	width: 100%;
+    	flex-wrap: wrap;
+    	li {
+    		width: 100%;
+    		text-align: center;
+    	}
+    	a {
+    		display: block;
+    		margin: 5px 0;
+    	}
+    }
+ }
+ .header__wrap {
+	ul {
+		li {
+			&:hover {
+				&:after {
+					display: block;
+					margin-bottom: 0px;
+				}
+			}
+		}
+	}
+}
+}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.main-section {
+		padding: 36px 0;
+		h1 {
+			font-size: 42px;
+		}
+		h2 {
+			font-size: 30px;
+		}
+	}
+	.gallery {
+		padding: 0;
+	}
+	.gallery__category {
+		max-width: 45%;
+    	margin: 0 10px 68px;
+	}
+	.price__wrap {
+		flex-wrap: wrap;
+    	justify-content: center;
+	}
+	.price {
+    	padding: 0;
+	}
+	.shem-work {
+		padding: 0 0 20px;
+	}
+	.contacts__numbers {
+    	padding: 2px 15px;
+    	h3 {
+    		font-size: 26px;
+    	}
+    	p {
+    		margin: 10px 0 10px -2px;
+    	}
+	}
+	form {
+		input {
+			padding: 18px;
+    		margin: 0 0 18px;
+    		height: 36px;
+		}
+		textarea {
+			height: 126px;
+			padding: 18px;
+		}
+	}
+	.contacts__btn {
+		width: 100%;
+	}
+	.services__wrap {
+		flex-wrap: wrap;
+	}
+	.services__wrap>:nth-child(2) {
+		margin: 0;
+	}
+	footer {
+		text-align: center;
+	}
+	.menu {
+		width: 100vw;
+		&_active {
+			left: 0vw;
+    	}
+	}
+	.services {
+    	padding: 28px 0 30px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.main-section {
+		padding: 36px 0;
+		h1 {
+			font-size: 28px;
+		}
+		h2 {
+			font-size: 20px;
+		}
+	}
+	.main-section__services {
+		p {
+			font-size: 18px;
+			&:before {
+				display: none;
+			}
+		}
+	}
+	.main-title__btn {
+		width: 230px;
+    	font-size: 20px;
+	}
+	h2 {
+		font-size: 34px;
+	}
+	.services__btn {
+		width: 268px;
+    	height: 55px;
+    	font-size: 22px;
+	}
+	.about__autor {
+		flex-wrap: wrap;
+		div {
+			padding: 0;
+		}
+	}
+	.gallery__category {
+		margin: 0 6px 30px;
+	}
+	.shem-work__item {
+		img {
+			max-width: 50px;
+		}
+		>:nth-child(2) {
+		padding: 0px 0 0 18px;
+		}
+	}
+	.shem-work__btn {
+		width: 260px;
+    	height: 60px;
+    	font-size: 22px;
+	}
+	.contacts__wrap {
+		flex-wrap: wrap;
+	}
+	.contacts__item, .contacts__form {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.contacts__form {
+		margin-top: 20px;
+	}
+	.contacts__numbers {
+		h3 {
+			margin: 5px 0;
+		}
+	}
+	.footer__wrap {
+		flex-wrap: wrap;
+	}
+	.footer__design {
+		width: 100%;
+	}
+	.logo {
+		max-width: 142px;
+	}
+	.menu {
+		&-link {
+		z-index: 9;
+		display: block;
+		width: 30px;
+		height: 26px;
+		
+	}
+}
+}
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.header__btn {
+		float: none;
+		margin-top: 10px;
+	}
+	.header__wrap {
+		justify-content: center;
+	}
+	.logo {
+		padding: 0;
+	}
+}
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+	/**/
+

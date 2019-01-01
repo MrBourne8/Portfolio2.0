@@ -1,0 +1,85 @@
+/* font-family: "Panton-Blac"; */
+@font-face {
+	font-family: "Panton-Black";
+	font-display: auto;
+	src: url("../fonts/Panton-Black.otf");
+	src: url("../fonts/Panton-Black.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Panton-Black.woff") format("woff"),
+	url("../fonts/Panton-Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Panton-Light"; */
+@font-face {
+	font-family: "Panton-Light";
+	font-display: auto;
+	src: url("../fonts/Panton-Light.otf");
+	src: url("../fonts/Panton-Light?#iefix")format("embedded-opentype"),
+	url("../fonts/Panton-Light.woff") format("woff"),
+	url("../fonts/Panton-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Panton-ExtraBlack"; */
+@font-face {
+	font-family: "Panton-ExtraBlack";
+	font-display: auto;
+	src: url("../fonts/Panton-ExtraBlac.otf");
+	src: url("../fonts/Panton-ExtraBlack.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Panton-ExtraBlack.woff") format("woff"),
+	url("../fonts/Panton-ExtraBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Panton-ExtraBold"; */
+@font-face {
+	font-family: "Panton-ExtraBold";
+	font-display: auto;
+	src: url("../fonts/Panton-ExtraBold.otf");
+	src: url("../fonts/Panton-ExtraBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Panton-ExtraBold.woff") format("woff"),
+	url("../fonts/Panton-ExtraBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Panton-SemiBold"; */
+@font-face {
+	font-family: "Panton-SemiBold";
+	font-display: auto;
+	src: url("../fonts/Panton-SemiBold.otf");
+	src: url("../fonts/Panton-SemiBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Panton-SemiBold.woff") format("woff"),
+	url("../fonts/Panton-SemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Panton-ExtraLight";
+	font-display: auto;
+	src: url("../fonts/Panton-ExtraLight.eot");
+	src: url("../fonts/Panton-ExtraLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Panton-ExtraLight.woff") format("woff"),
+	url("../fonts/Panton-ExtraLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PFCentroSlabProMedium";
+	font-display: auto;
+	src: url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.eot");
+	src: url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.woff") format("woff"),
+	url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PFCentroSlabProBold";
+	font-display: auto;
+	src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot");
+	src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.woff") format("woff"),
+	url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

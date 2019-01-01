@@ -1,0 +1,10 @@
+/* font-family: "ptsansnarrow"; */
+@font-face {
+	font-family: 'Montserrat';
+	src: url("../fonts/montserrat/montserrat.eot");
+	src: url("../fonts/montserrat/montserrat.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/montserrat/montserrat.woff") format("woff"),
+	url("../fonts/montserrat/montserrat.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

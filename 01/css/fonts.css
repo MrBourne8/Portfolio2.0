@@ -1,0 +1,26 @@
+/* font-family: "PFDinDisplayProRegular"; */
+@font-face {
+	font-family: 'PFDinDisplayProRegular';
+	src: url("../fonts/PFDinDisplayProRegular.eot");
+	src: url("../fonts/PFDinDisplayProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PFDinDisplayProRegular.woff") format("woff"),
+	url("../fonts/PFDinDisplayProRegular.ttf") format("truetype");
+}
+
+/* font-family: "PFDinDisplayProBold"; */
+@font-face {
+	font-family: 'PFDinDisplayProBold';
+	src: url("../fonts/PFDinDisplayProBold.eot");
+	src: url("../fonts/PFDinDisplayProBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PFDinDisplayProBold.woff") format("woff"),
+	url("../fonts/PFDinDisplayProBold.ttf") format("truetype");
+}
+
+/* font-family: "PFDinDisplayProBlack"; */
+@font-face {
+	font-family: 'PFDinDisplayProBlack';
+	src: url("../fonts/PFDinDisplayProBlack.eot");
+	src: url("../fonts/PFDinDisplayProBlack.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PFDinDisplayProBlack.woff") format("woff"),
+	url("../fonts/PFDinDisplayProBlack.ttf") format("truetype");
+}
