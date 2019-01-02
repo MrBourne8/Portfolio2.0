@@ -1,3 +1,4 @@
+// Общие стили
 *:-webkit-input-placeholder {
   color: #667;
   opacity: 1;
@@ -55,13 +56,17 @@ h1 {
 }
 
 .btn {
+  width: 320px;
   max-width: 90%;
+  height: 68px;
+  text-transform: uppercase;
+  border: none;
 }
-
 input {
   max-width: 100%;
 }
-
+// Общие стили
+// Шапка
 header {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 5;
@@ -98,7 +103,8 @@ nav {
     }
   }
 }
-
+// Шапка
+// Главный экран
 .main-block {
   padding: 160px 0 20px;
   h1 {
@@ -125,14 +131,8 @@ nav {
   display: block;
   margin: 80px auto;
 }
-
-.btn {
-  width: 320px;
-  height: 68px;
-  text-transform: uppercase;
-  border: none;
-}
-
+// Главный экран
+// Блок с калькулятором цен
 .price {
   padding: 40px 0;
   text-align: center;
@@ -187,7 +187,8 @@ nav {
     display: inline-block;
   }
 }
-
+// Блок с калькулятором цен
+// Блок портфолио
 .portfolio {
   text-align: center;
   background-color: @blue;
@@ -220,7 +221,8 @@ nav {
     background-color: #7F7F7F;
   }
 }
-
+// Блок портфолио
+// Блок отзывы
 .reviews {
   background-color: #c5c5c5;
   text-align: center;
@@ -240,7 +242,8 @@ nav {
 .review__text {
   text-transform: none;
 }
-
+// Блок отзывы
+// Блок контакты
 .contact {
   text-align: center;
   padding: 30px 0;
@@ -248,12 +251,12 @@ nav {
 
 .contact__wrap {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 20px 0;
 }
 
 .contact__item {
-  text-align: center;
+  padding: 0 5px;
   img {
     max-width: 100%;
     margin: 0 auto;
@@ -273,14 +276,16 @@ nav {
   color: #fff;
   margin: 20px 0;
 }
-
+// Блок контакты
+// Подвал
 footer {
   background-color: black;
   text-align: center;
   padding: 20px 0;
   color: #fff;
 }
-
+// Подвал
+// Стили модального окна 
 .modal-callbak {
   top: 50%;
   margin-top: -190px;
