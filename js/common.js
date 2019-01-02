@@ -1,5 +1,5 @@
 $('document').ready(function() {
-/*Появление модального окна ЗАКАЗ ВЕРСТКИ*/ 
+  /*Появление модального окна ЗАКАЗ ВЕРСТКИ*/ 
   $('.btn-callbak, .buy').click(function(){
     $('.modal-callbak').addClass('modal-wisible');
     $('.overlay').fadeIn();
@@ -9,8 +9,8 @@ $('document').ready(function() {
     $('.modal-callbak').removeClass('modal-wisible');
     $('.modal-thank').fadeOut();
   });  
-/*Появление модального окна ЗАКАЗ ВЕРСТКИ*/
-/*Появление модального окна НАПИСАТЬ СООБЩЕНИЕ*/ 
+  /*Появление модального окна ЗАКАЗ ВЕРСТКИ*/
+  /*Появление модального окна НАПИСАТЬ СООБЩЕНИЕ*/ 
   $('.contact__btn').click(function(){
     $('.modal-message').addClass('modal-wisible');
     $('.overlay').fadeIn();
@@ -19,15 +19,15 @@ $('document').ready(function() {
     $('.overlay').css('display', 'none');
     $('.modal-message').removeClass('modal-wisible');
   });  
-/*Появление модального окна НАПИСАТЬ СООБЩЕНИЕ*/
-/*Удаление текста ошибки при клике по странице*/ 
+  /*Появление модального окна НАПИСАТЬ СООБЩЕНИЕ*/
+  /*Удаление текста ошибки при клике по странице*/ 
   $('body').click(function() {
     if ($('label.error').length > 0) {
       $('label.error').remove('#Name-error, #Phone-error');
     }
   });
-/*Удаление текста ошибки при клике по странице*/
-/*Расчеты калькулятора*/ 
+  /*Удаление текста ошибки при клике по странице*/
+  /*Расчеты калькулятора*/ 
   $('.calc select, #sliders input[name=slider], #order input[name=order], #animat input[name=anim]').change(function() {
     $section = $('select#section').val();
     $modal = $('select#modal').val();
@@ -70,8 +70,8 @@ $('document').ready(function() {
       $('#04').show(400);
     }
   });
-/*Расчеты калькулятора*/
-/*Проверка валидност формы и отправка данных*/
+  /*Расчеты калькулятора*/
+  /*Проверка валидност формы и отправка данных*/
   $('#form-callbak').validate({
     rules: {
       Name: {
@@ -117,23 +117,43 @@ $('document').ready(function() {
       return false;
     }
   });
-/*Проверка валидност формы и отправка данных*/
-/*Настройки слайдера ПОРТФОЛИО*/
+  /*Проверка валидност формы и отправка данных*/
+  /*Настройки слайдера ПОРТФОЛИО*/
   $('.slick-slider').slick({
     arrows: false,
     slidesToShow: 3,
     autoplay: true,
+    responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        dots: false,
+        slidesToShow: 1
+      }
+    },
+    ]
   });
-/*Настройки слайдера ПОРТФОЛИО*/
-/*Настройки слайдера ОТЗЫВЫ*/
+  /*Настройки слайдера ПОРТФОЛИО*/
+  /*Настройки слайдера ОТЗЫВЫ*/
   $('.rew-slider').slick({
     arrows: true,
     slidesToShow: 1,
     autoplay: true,
     dots: true,
+    responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        dots: false,
+        slidesToShow: 1
+      }
+    },
+    ]
   });
-/*Настройки слайдера ОТЗЫВЫ*/
-/*Навигация по страницу, прокрутка до якоря*/
+  /*Настройки слайдера ОТЗЫВЫ*/
+  /*Навигация по страницу, прокрутка до якоря*/
   $("a[href*=#]").on("click", function(e){
     var anchor = $(this);
     $('html, body').stop().animate({
@@ -142,5 +162,5 @@ $('document').ready(function() {
     e.preventDefault();
     return false;
   });
-/*Навигация по страницу, прокрутка до якоря*/
+  /*Навигация по страницу, прокрутка до якоря*/
 });
