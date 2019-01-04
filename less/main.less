@@ -129,23 +129,19 @@ nav {
 
 .scroll_to {
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   margin: 54px auto;
   padding-top: 13px;
   span {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #e4e4e4;
+    border: solid 2px #e4e4e4;
     border-radius: 32px;
     height: 43px;
     width: 23px;
     margin: 0 auto;
     display: block;
     i{
-      border-style: solid;
-      border-width: 2px;
-      border-color: #e0e0e0;
+      border-style: solid 2px #e0e0e0;
       border-radius: 8px;
       background-color: #e0e0e0;
       position: relative;
@@ -175,7 +171,7 @@ nav {
 // Главный экран
 // Блок с калькулятором цен
 .price {
-  padding: 40px 0;
+  padding: 20px 0;
   text-align: center;
   min-height: 100vh;
   h2 {
@@ -226,6 +222,15 @@ nav {
   }
   .active {
     display: inline-block;
+  }
+}
+
+.price__btn {
+  background-color: #1F90F4;
+  transition: all 0.5s;
+  &:hover {
+    background-color: #83c5ff;
+    border: solid 2px #1F90F4;
   }
 }
 // Блок с калькулятором цен
