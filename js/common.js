@@ -154,7 +154,7 @@ $('document').ready(function() {
   });
   /*Настройки слайдера ОТЗЫВЫ*/
   /*Навигация по страницу, прокрутка до якоря*/
-  $('a[href*="#"]').on("click", function(e){
+  $("a[href*='#']").on("click", function(e){
     var anchor = $(this);
     $('html, body').stop().animate({
       scrollTop: $(anchor.attr('href')).offset().top - 40
