@@ -39,19 +39,19 @@ $(document).ready(function () {
 		return false;
 	});
 	/*Навигация по странице, прокрутка до якоря*/
-
- //Адаптивное меню
- var link = $('.menu-link');
- var menu = $('.menu');
- var nav_link = $('.menu a');
-
- link.click(function () {
- 	link.toggleClass('menu-link_active');
- 	menu.toggleClass('menu_active');
- });
- nav_link.click(function () {
- 	link.toggleClass('menu-link_active');
- 	menu.toggleClass('menu_active');
- });
-	//Адаптивное меню
 });
+
+//Адаптивное меню
+var link = $('.menu-link');
+var menu = $('.menu');
+var nav_link = $('.menu a');
+
+link.click(function () {
+	link.toggleClass('menu-link_active');
+	menu.toggleClass('menu_active');
+});
+nav_link.click(function () {
+	link.toggleClass('menu-link_active');
+	menu.toggleClass('menu_active');
+});
+	//Адаптивное меню

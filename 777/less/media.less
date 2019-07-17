@@ -93,13 +93,13 @@
       width: 50px;
       height: 50px;
       position: absolute;
-      top: 5px;
+      top: -9px;
       right: 7px;
       span, span:before, span:after {
         display: block;
         width: 30px;
         height: 3px;
-        background-color: black;
+        background-color: #fff;
         position: absolute;
         left: 50%;
         margin-left: -15px;
@@ -128,7 +128,7 @@
         }
       }
     }
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.8);
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -151,6 +151,32 @@
       }
     }
   }
+
+  .section-1__item {
+    width: 48%;
+    max-width: 50%;
+  }
+
+  .section-2__item {
+    max-width: 100%;
+  }
+
+  .request-form {
+    flex-wrap: wrap;
+    input {
+      margin: 5px 0;
+    }
+    button {
+      margin: 5px 0;
+    }
+  }
+
+  .section-5__video {
+    width: 100%;
+  }
+  .section-5__description {
+    width: 100%;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -172,6 +198,67 @@
     margin-left: -160px;
 	} 
 	// Стили окна благодарности
+
+  .main {
+    padding: 20px 0 90px;
+  }
+
+  .main__wrap {
+    text-align: center;
+  }
+  .main-title {
+    font-size: 30px;
+  }
+
+  .section-1__item {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .section-3__item {
+    width: 100%;
+  }
+
+  .map {
+    max-width: 100%;
+  }
+
+  .adress {
+    width: 100%;
+  }
+
+  .section-7__wrap {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .section-7__item {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .header__wrap {
+    flex-wrap: wrap;
+  }
+
+  .header__phone {
+    justify-content: center;
+    p {
+      width: 60%;
+    }
+  }
+
+  .footer__item {
+    width: 50%;
+  }
 }
 
 /**/
