@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="86px" viewBox="0 0 33 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>metal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="13" y="31" width="8" height="29"></rect>
+        <circle id="path-2" cx="16.5" cy="16.5" r="16.5"></circle>
+        <rect id="path-3" x="3" y="57" width="27" height="29"></rect>
+    </defs>
+    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="metal">
+            <g id="Rectangle-4">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#FD9B66" stroke-width="3" x="14.5" y="32.5" width="5" height="26"></rect>
+            </g>
+            <g id="Oval-10">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <circle stroke="#FD9B66" stroke-width="3" cx="16.5" cy="16.5" r="15"></circle>
+            </g>
+            <g id="Rectangle-5">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#FD9B66" stroke-width="3" x="4.5" y="58.5" width="24" height="26"></rect>
+            </g>
+            <path d="M23.5,80.5 L23.5,65.4667036" id="Line-6" stroke="#FD9B66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
