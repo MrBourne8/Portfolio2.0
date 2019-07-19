@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="166px" height="73px" viewBox="0 0 166 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>i-g-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="15" y="0" width="135" height="57"></rect>
+    </defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ограждения" transform="translate(-1111.000000, -4330.000000)">
+            <g id="i-g-4" transform="translate(1111.000000, 4330.000000)">
+                <g id="Rectangle-18">
+                    <use fill-opacity="0.4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#FF8267" stroke-width="1" x="15.5" y="0.5" width="134" height="56"></rect>
+                </g>
+                <path d="M27.5,52 L27.5,68.5" id="Line-9" stroke="#FF8267" stroke-width="7" stroke-linecap="round"></path>
+                <path d="M0.5,72.5 L164.847193,72.5" id="Line-12" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M135.5,52 L135.5,68.5" id="Line-9-Copy-2" stroke="#FF8267" stroke-width="7" stroke-linecap="round"></path>
+                <path d="M19,69.5 L35,69.5" id="Line-10" stroke="#FF8267" stroke-width="6" stroke-linecap="square"></path>
+                <path d="M127,69.5 L143,69.5" id="Line-10-Copy" stroke="#FF8267" stroke-width="6" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

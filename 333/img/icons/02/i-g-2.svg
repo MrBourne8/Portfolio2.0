@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="166px" height="94px" viewBox="0 0 166 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>i-g-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="15" y="0" width="135" height="94"></rect>
+    </defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ограждения" transform="translate(-477.000000, -4330.000000)">
+            <g id="i-g-2" transform="translate(477.000000, 4330.000000)">
+                <path d="M0.5,72.5 L164.847193,72.5" id="Line-12" stroke="#979797" stroke-linecap="square"></path>
+                <g id="Rectangle-18">
+                    <use fill-opacity="0.4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#FF8267" stroke-width="1" x="15.5" y="0.5" width="134" height="93"></rect>
+                </g>
+                <circle id="Oval-12" fill="#FF8267" cx="29" cy="80" r="2"></circle>
+                <circle id="Oval-12-Copy-2" fill="#FF8267" cx="136" cy="80" r="2"></circle>
+                <circle id="Oval-12-Copy" fill="#FF8267" cx="29" cy="87" r="2"></circle>
+                <circle id="Oval-12-Copy-3" fill="#FF8267" cx="136" cy="87" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

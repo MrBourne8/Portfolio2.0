@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="166px" height="130px" viewBox="0 0 166 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>n-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ограждения" transform="translate(-477.000000, -3852.000000)">
+            <g id="n-2" transform="translate(477.000000, 3852.000000)">
+                <path d="M109.068359,130 L22.3203125,130 L25.484375,109.609375 L71.0117188,67.3339844 L77.2519531,61.09375 C87.0371583,51.2499508 91.5195354,41.9629343 90.6992188,33.2324219 C90.0546843,26.4355129 86.5390944,22.9492196 80.1523438,22.7734375 C75.6406024,22.6562494 71.8173985,24.4872858 68.6826172,28.2666016 C65.5478359,32.0459173 63.5996132,36.9823914 62.8378906,43.0761719 L34.0976562,43.2519531 C34.5664086,35.2245692 36.9980249,27.8857754 41.3925781,21.2353516 C45.7871313,14.5849277 51.661096,9.38478437 59.0146484,5.63476563 C66.3682008,1.88474688 74.2050365,0.039062207 82.5253906,0.09765625 C95.0059218,0.332032422 104.673794,3.71578765 111.529297,10.2490234 C118.3848,16.7822592 121.373051,25.6151787 120.494141,36.7480469 C119.966794,43.3105797 117.813495,49.6972346 114.03418,55.9082031 C110.254864,62.1191717 104.761755,68.6523095 97.5546875,75.5078125 L84.1953125,87.8125 L64.3320312,106.972656 L112.671875,107.148438 L109.068359,130 Z" id="2" fill="#F3F3CE" opacity="0.439311594"></path>
+                <g id="Group-7-Copy-3" transform="translate(0.000000, 33.000000)">
+                    <path d="M30.5,20.3368421 L30.5,83.6667412" id="Line-9" stroke="#FF8267" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M0.5,92.5 L164.847193,92.5" id="Line-12" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M138.5,20.3368421 L138.5,83.6667412" id="Line-9-Copy-2" stroke="#FF8267" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M30.5,9.33870968 L30.5,29.6725775" id="Line-9-Copy" stroke="#FF8267" stroke-width="7" stroke-linecap="square"></path>
+                    <path d="M138.5,9.33870968 L138.5,29.6725775" id="Line-9-Copy-3" stroke="#FF8267" stroke-width="7" stroke-linecap="square"></path>
+                    <path d="M19.3428571,89.5 L42.8179329,89.5" id="Line-10" stroke="#FF8267" stroke-width="6" stroke-linecap="square"></path>
+                    <path d="M125.342857,89.5 L148.817933,89.5" id="Line-10-Copy" stroke="#FF8267" stroke-width="6" stroke-linecap="square"></path>
+                    <path d="M18.6717949,1.5 L149,1.5" id="Line-11" stroke="#FF8267" stroke-width="12"></path>
+                    <path d="M18.6717949,31.5 L149,31.5" id="Line-11-Copy-3" stroke="#FF8267" stroke-width="5"></path>
+                    <path d="M18.6717949,61.5 L149,61.5" id="Line-11-Copy-2" stroke="#FF8267" stroke-width="5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
