@@ -419,6 +419,40 @@ footer {
 }
 // Подвал
 
+.modal-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 260px;
+  margin: 0 auto;
+  input {
+    width: 260px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .form-btn {
+    background-color: #FDBD6A;
+    color: #fff;
+    text-transform: uppercase;
+    border: solid 2px #FDBD6A;
+    border-radius: 15px;
+    padding: 10px;
+    transition: all 0.5s;
+    &:hover {
+      background-color: #fff;
+      color: #FDBD6A;
+    }
+  }
+}
+
+.form__title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 // Стили модального окна 
 .modal {
   top: 50%;

@@ -35,7 +35,7 @@
 				</div>
 				<div class="header__phone">
 					<p>8 916 909 49 40</p>
-					<button class="btn">Оставить заявку</button>
+					<button class="btn btn-mod">Оставить заявку</button>
 				</div>
 			</div>
 			<a href="#" class="menu-link ">
@@ -147,7 +147,7 @@
 					</p>
 				</div>
 			</div>
-			<button class="section-3__btn">ОСТАВИТЬ ЗАЯВКУ</button>
+			<button class="section-3__btn btn-mod">ОСТАВИТЬ ЗАЯВКУ</button>
 		</div>
 	</section>
 	<!-- Название секции End-->
@@ -211,49 +211,49 @@
 					<img src="img/001.png" alt="Перила из нержавеющей стали на стойках">
 					<p class="section-5__description">Перила из нержавеющей стали на стойках</p>
 					<p class="price">1 999 руб./п.м</p>
-					<button class="section-5__btn">Сделать заказ</button>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
 				</div>
 				<div class="section-5__item">
 					<img src="img/002.png" alt="Перила с боковым креплением и двумя ригелями">
 					<p class="section-5__description">Перила с боковым креплением и двумя ригелями</p>
 					<p class="price">2 999 руб./п.м</p>
-					<button class="section-5__btn">Сделать заказ</button>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
 				</div>
 				<div class="section-5__item">
 					<img src="img/003.png" alt="Перила с тремя ригелями">
 					<p class="section-5__description">Перила с тремя ригелями</p>
 					<p class="price">2 900 руб./п.м</p>
-					<button class="section-5__btn">Сделать заказ</button>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
 				</div>
 				<div class="section-5__item">
 					<img src="img/004.png" alt="Перила на стойках с двумя ригелями">
 					<p class="section-5__description">Перила на стойках с двумя ригелями</p>
 					<p class="price">2 700 руб./п.м</p>
-					<button class="section-5__btn">Сделать заказ</button>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
 				</div>
 				<div class="section-5__item">
 					<img src="img/005.png" alt="С боковым креплением и тремя ригелями">
 					<p class="section-5__description">С боковым креплением и тремя ригелями</p>
 					<p class="price">3 200 руб./п.м</p>
-					<button class="section-5__btn">Сделать заказ</button>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
 				</div>
 				<div class="section-5__item">
 					<img src="img/006.png" alt="Перила с вертикальным заполнением">
 					<p class="section-5__description">Перила с вертикальным заполнением</p>
 					<p class="price">4 500 руб./п.м</p>
-					<button class="section-5__btn">Сделать заказ</button>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
 				</div>
 				<div class="section-5__item">
 					<img src="img/007.png" alt="На сварных штырях с каленым стеклом">
 					<p class="section-5__description">На сварных штырях с каленым стеклом</p>
 					<p class="price">5 999 руб./п.м</p>
-					<button class="section-5__btn">Сделать заказ</button>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
 				</div>
 				<div class="section-5__item">
 					<img src="img/008.png" alt="Стеклянные перила из каленого стекла с боковым креплением">
 					<p class="section-5__description">Стеклянные перила из каленого стекла с боковым креплением</p>
 					<p class="price">16 000 руб./п.м</p>
-					<button class="section-5__btn">Сделать заказ</button>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
 				</div>
 			</div>
 		</div>
@@ -309,12 +309,22 @@
 				</div>
 				<div class="header__phone">
 					<p>8 916 909 49 40</p>
-					<button class="btn">Оставить заявку</button>
+					<button class="btn btn-mod">Оставить заявку</button>
 				</div>
 			</div>
 		</div>
 	</footer>
 	<!-- Подвал End-->
+
+	<div class="modal">
+		<form action="mail.php" class="modal-form">
+			<p class="form__title">Оставте свои данные</p>
+			<input type="text" name="name" placeholder="Ваше имя" required="">
+			<input type="text" name="phone" placeholder="Телефон" required="">
+			<button class="form-btn">Отправить</button>
+		</form>
+	</div>
+	<div class="overlay"></div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
