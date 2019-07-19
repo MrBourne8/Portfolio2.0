@@ -39,6 +39,24 @@ $(document).ready(function () {
 		return false;
 	});
 	/*Навигация по странице, прокрутка до якоря*/
+	/*Отправка формы*/
+	$('.modal-form').submit(function() {
+		$.ajax({
+			type: "POST",
+			url: "mail.php",
+			data: $('.modal-order').serialize()
+		}).done(function() {
+			$('.modal-order, .modal-thank').removeClass('modal-wisible');
+			$('.modal-thank').addClass('modal-wisible');
+			$('.overlay').fadeIn();
+			$('.modal-thank, .overlay').fadeIn().delay(4000).fadeOut();
+			setTimeout(function() {
+				$(".modal-order").trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+	/*Отправка формы*/
 });
 
 //Адаптивное меню
