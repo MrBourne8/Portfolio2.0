@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>Steelstyling</title>
+	<title>BSMart</title>
 	<meta name="description" content="" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +17,6 @@
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="libs/slick/slick-theme.css" />
 	<link rel="stylesheet" href="libs/slick/slick.css" />
-	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="css/styles.min.css" />
 </head>
 <body>
@@ -45,9 +44,8 @@
 			<nav class="menu">
 				<ul class="main-menu">
 					<li><a href="#section-4">О компании</a></li>
-					<li><a href="#section-5">Характеристика изделий</a></li>
-					<li><a href="#section-1">Преимущества</a></li>
-					<li><a href="#section-2">Фото</a></li>
+					<li><a href="#section-5">Типы ограждений</a></li>
+					<li><a href="#section-2">Особенности монтажа</a></li>
 					<li><a href="#section-6">Контакты</a></li>
 				</ul>
 			</nav>
@@ -58,36 +56,54 @@
 	<section class="main">
 		<div class="container">
 			<div class="main__wrap">
-				<h1 class="main-title">ПАНДУСЫ ИЗ НЕРЖАВЕЮЩЕЙ СТАЛИ</h1>
-				<h4 class="main__description">Компания «Steelstyling» проектирует, изготавливает и устанавливает пандусы из нержавеющей леггированной стали для школ, детских садов, больниц, поликлиник, торговых комплексов, бизнес-центров и т.д.</h4>
+				<h1 class="main-title">ПЕРИЛА ИЗ НЕРЖАВЕЙКИ</h1>
+				<h4 class="main__description">Компания «Steelstyling» проектирует, изготовливает и устанавливает перила из нержавеющей стали для лестниц, террас, бассейнов, атриумов в Москве и Московской области.</h4>
 			</div>
 		</div>
 	</section>
 	<!-- Главный экран End-->
 	<!-- Название секции -->
-	<section class="section-1" id="section-1">
+	<section class="section-1">
 		<div class="container">
-			<h2>Преимущества данной конструкции</h2>
+			<div class="section-1__description">
+				<p class="section-1__description-title">
+					Перила и ограждения без посредников!
+				</p>
+				<p> 
+					В 90% случаях выезд на замер не требуеться и достаточно пару фотографий.Монтаж происходит 1-2 дня. Все изделья сварные. Не нужно беспокоиться за ремонт, все делаеться аккуратно и качественно на века. 
+					<br>Работаем в передеах 250КМ от МКАД
+					Не тратьте деньги на кованые перила, ковку, кованые ограждения - гораздо практичнее и дешевле заказать перила и ограждения из нержавейки! 
+					<br>Цена указана с материалом и монтажом под ключ. Доставка оплачивается отдельно 20р за 1км от МКАД.(не менее 1500р.) Особый подход к частным домам. Опытные монтажники-сварщики с профессиональным оборудованием. На сегодняшний день самый экономный и практичный вариант. Срок службы боле 10 лет далеко не предел. 
+					Минимальная сумма заказа 30 000р. Работаем по фиксированной цене!!!
+					<br>Ищете надежную компанию с высококачественной продукцией, официальными договорами, низкими ценами и системой скидок? Тогда вы нас нашли! 
+					<br>Мы работаем на рынке изделий из нержавейки и уже завоевали доверие крупнейших фирм: «Сбербанк», «Магнит», «Пятерочка», «Макдональдс», «Верный», «Азбука вкуса» и более тысячи построенных частных домов.вот этот текст нужно указать здесь по сути выдержки из работы
+
+
+
+
+				</p>
+			</div>
+			<h2>Характеристики перил</h2>
 			<div class="section-1__wrap">
 				<div class="section-1__item">
-					<img src="img/icons/01/001.png" alt="Icon">
-					<h3>ВЫСОКАЯ КОРРОЗИЙНАЯ УСТОЙЧИВОСТЬ</h3>
+					<img src="img/icons/01/01.svg" alt="Icon">
+					<h3>Диаметры труб</h3>
 					<p>
-						Благодаря наличию в стальном сплаве хрома и никеля, пандусы не боятся коррозии и окисления. Конструкции из нержавеющей стали можно устанавливать и внутри зданий, и на открытом воздухе.
+						38мм; 42мм; 50мм
 					</p>
 				</div>
 				<div class="section-1__item">
-					<img src="img/icons/01/002.svg" alt="Icon">
-					<h3>ДОЛГОВЕЧНОСТЬ</h3>
+					<img src="img/icons/01/02.svg" alt="Icon">
+					<h3>Коррозионностойкие марки</h3>
 					<p>
-						Нержавеющая сталь отличается высокой прочностью, устойчивостью к химическим и механическим воздействиям, что обеспечивает продолжительный срок эксплуатации.
+						Нержавеющая сталь AISI 201; 304;
 					</p>
 				</div>
 				<div class="section-1__item">
-					<img src="img/icons/01/003.svg" alt="Icon">
-					<h3>НЕПРИХОТЛИВОСТЬ В УХОДЕ</h3>
+					<img src="img/icons/01/03.svg" alt="Icon">
+					<h3>Крепление стойки</h3>
 					<p>
-						Пандусы не требуют периодической покраски и грунтовки. Нержавеющая сталь сохраняет первоначальные эстетические характеристики на протяжении всего срока эксплуатации. 
+						Химический анкер марки Fischer
 					</p>
 				</div>
 			</div>
@@ -97,19 +113,23 @@
 	<!-- Название секции -->
 	<section class="section-2" id="section-2">
 		<div class="container">
-			<h2>Фото готовых конструкций</h2>
-			<div class="slider">
-				<div>
-					<a href="img/slider/1.jpg" class="fancybox" data-fancybox="gallery" rel="group1"><img src="img/slider/1.jpg" alt="Foto"></a>
+			<h2>Особенности нашего монтажа</h2>
+			<div class="section-2__wrap">
+				<div class="section-2__item">
+					<img src="img/icons/02/01.svg" alt="Img">
+					<p class="section-2-title">КАЧЕСТВЕННЫЙ МЕТАЛЛ</p>
 				</div>
-				<div>
-					<a href="img/slider/2.jpg" class="fancybox" data-fancybox="gallery" rel="group1"><img src="img/slider/2.jpg" alt="Foto"></a>
+				<div class="section-2__item">
+					<img src="img/icons/02/02.svg" alt="Img">
+					<p class="section-2-title">АРГОННАЯ СВАРКА</p>
 				</div>
-				<div>
-					<a href="img/slider/3.jpg" class="fancybox" data-fancybox="gallery" rel="group1"><img src="img/slider/3.jpg" alt="Foto"></a>
+				<div class="section-2__item">
+					<img src="img/icons/02/03.svg" alt="Img">
+					<p class="section-2-title">МОНТАЖ НА МЕСТЕ</p>
 				</div>
-				<div>
-					<a href="img/slider/4.jpg" class="fancybox" data-fancybox="gallery" rel="group1"><img src="img/slider/4.jpg" alt="Foto"></a>
+				<div class="section-2__item">
+					<img src="img/icons/02/04.svg" alt="Img">
+					<p class="section-2-title">МОДУЛЬНЫЕ КОНСТРУКЦИИ</p>
 				</div>
 			</div>
 		</div>
@@ -118,26 +138,30 @@
 	<!-- Название секции -->
 	<section class="section-3">
 		<div class="container">
-			<h2>Особенности наших пандусов</h2>
+			<h2>Как с нами сотрудничать</h2>
 			<div class="section-3__wrap">
 				<div class="section-3__item">
 					<div class="section-3__decor decor_1"></div>
-					<p>22000р. за 1 м.п. Пандус из нержвеки по цене из черного металла
+					<p>ОСТАВЛЯЕТЕ ЗАЯВКУ
+						<br>Возможность выкупить залог, оплачивая сумму и проценты по частям
 					</p>
 				</div>
 				<div class="section-3__item">
 					<div class="section-3__decor decor_2"></div>
-					<p>Более 10 лет службы
+					<p>ЗАКЛЮЧЕНИЕ ДОГОВОРА. ПРЕДОПЛАТА 50%
+						<br>Система скидок постоянным клиентам
 					</p>
 				</div>
 				<div class="section-3__item">
 					<div class="section-3__decor decor_3"></div>
-					<p>Вся сварная конструкция сварная
+					<p>МОНТАЖ КОНСТРУКЦИИ
+						<br>Наши специалисты всегда на связи 24/7
 					</p>
 				</div>
 				<div class="section-3__item">
 					<div class="section-3__decor decor_4"></div>
-					<p>Проходит по всем гостам, монтаж за 1-2 дня
+					<p>СДАЧА ОБЪЕКТА
+						<br>Прозрачность. Никаких скрытых процентов
 					</p>
 				</div>
 			</div>
@@ -199,24 +223,56 @@
 	<!-- Название секции -->
 	<section class="section-5" id="section-5">
 		<div class="container">
-			<h2>Характеристика пандусов из нержавеющей стали</h2>
+			<h2>Типы изготавливаемых нержавеющих ограждений</h2>
 			<div class="section-5__wrap">
-				<p>
-					Перила для пандуса - двойные, имеют высоту верхнего уровня 900 мм, нижний поручень имеет высоту 700 мм, крепятся поручни при помощи аргонодуговой сварки на кронштейны диаметром 10-12 мм все поручни для пандуса выполняются из нержавеющей трубы диаметром 38,1 - 50,8 мм. отполированной до зеркального блеска.
-				</p>
-				<p>
-					Изготовление и монтаж стационарных пандусов из нержавеющей стали:
-					Каркас пандуса из нержавеющей стали выполняется из профильной нержавеющей трубы AISI 304 и закрывается металлическими нержавеющими перфорированными листами или нержавеющей решеткой.
-				</p>
-				<p>
-					Внимание! основание пандуса и ограждение полностью выполнены из нержавеющей стали.
-				</p>
-				<p>
-					НРП - настил решетчатый прессованныйПредлагаем изготовление и установку металлических стационарных пандусов полностью выполненных из нержавеющей стали. Пандусы такого типа отличаются повышенными антикоррозийными свойствами и устойчивостью к агрессивной городской среде.
-				</p>
-				<p>
-					Из-за использования нержавеющих материалов марки стали (AISI304) Российский аналог (08x18H10); или (AISI304L) аналог (08x18H11), пандусы из нержавейки более дорогая конструкция рассчитанная на долгий срок службы при любых погодных условиях. Мы занимаемся профессиональным изготовлением пандусов из нержавеющей стали от легких конструкций без каркаса, до усиленных с повышенной жесткостью и декоративные пандусы из нержавеющей стали.
-				</p>
+				<div class="section-5__item">
+					<img src="img/001.png" alt="Перила из нержавеющей стали на стойках">
+					<p class="section-5__description">Перила из нержавеющей стали на стойках</p>
+					<p class="price">1 999 руб./п.м</p>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
+				</div>
+				<div class="section-5__item">
+					<img src="img/002.png" alt="Перила с боковым креплением и двумя ригелями">
+					<p class="section-5__description">Перила с боковым креплением и двумя ригелями</p>
+					<p class="price">2 999 руб./п.м</p>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
+				</div>
+				<div class="section-5__item">
+					<img src="img/003.png" alt="Перила с тремя ригелями">
+					<p class="section-5__description">Перила с тремя ригелями</p>
+					<p class="price">2 900 руб./п.м</p>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
+				</div>
+				<div class="section-5__item">
+					<img src="img/004.png" alt="Перила на стойках с двумя ригелями">
+					<p class="section-5__description">Перила на стойках с двумя ригелями</p>
+					<p class="price">2 700 руб./п.м</p>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
+				</div>
+				<div class="section-5__item">
+					<img src="img/005.png" alt="С боковым креплением и тремя ригелями">
+					<p class="section-5__description">С боковым креплением и тремя ригелями</p>
+					<p class="price">3 200 руб./п.м</p>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
+				</div>
+				<div class="section-5__item">
+					<img src="img/006.png" alt="Перила с вертикальным заполнением">
+					<p class="section-5__description">Перила с вертикальным заполнением</p>
+					<p class="price">4 500 руб./п.м</p>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
+				</div>
+				<div class="section-5__item">
+					<img src="img/007.png" alt="На сварных штырях с каленым стеклом">
+					<p class="section-5__description">На сварных штырях с каленым стеклом</p>
+					<p class="price">5 999 руб./п.м</p>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
+				</div>
+				<div class="section-5__item">
+					<img src="img/008.png" alt="Стеклянные перила из каленого стекла с боковым креплением">
+					<p class="section-5__description">Стеклянные перила из каленого стекла с боковым креплением</p>
+					<p class="price">16 000 руб./п.м</p>
+					<button class="section-5__btn btn-mod">Сделать заказ</button>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -257,25 +313,8 @@
 	</section>
 	<!-- Название секции End-->
 	<!-- Подвал -->
-	<footer>
-		<div class="container">
-			<div class="header__wrap">
-				<div class="logo">
-					<img src="img/logo.svg" alt="Logo">
-				</div>
-				<div class="header__geo">
-					<img src="img/icons/geo.png" alt="Geo">
-					<p>
-						Работаем по Всей Московской области
-					</p>
-				</div>
-				<div class="header__phone">
-					<p>8 965 131 64 60</p>
-					<button class="btn btn-mod">Оставить заявку</button>
-				</div>
-			</div>
-		</div>
-	</footer>
+	
+	<?php include ("blocks/footer.php");?>
 	<!-- Подвал End-->
 
 	<div class="modal">
@@ -300,7 +339,6 @@
 
 <script src="libs/jquery/jquery-3.4.1.min.js"></script>
 <script src="libs/slick/slick.min.js"></script>
-<script src="libs/fancybox/jquery.fancybox.min.js"></script>
 <script src="js/common.min.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
