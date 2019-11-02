@@ -91,9 +91,9 @@ $('document').ready(function() {
         required: "Укажите Ваше имя",
       },
       Phone: {
-        required: "Укажите Телефон",
-        rangelength: "Введите номер в формате 91234560000",
-        digits: "Введите номер в формате 91234560000",
+      	required: "Укажите Телефон",
+      	rangelength: "Введите номер в формате 91234560000",
+      	digits: "Введите номер в формате 91234560000",
       }
     },
     submitHandler: function(form) {
@@ -103,7 +103,7 @@ $('document').ready(function() {
         data: $(form).serialize()
       }).done(function() {
         $('.modal-thank').fadeIn(500, function(){
-          $('.modal-callbak').removeClass('modal-wisible');
+        	$('.modal-callbak').removeClass('modal-wisible');
         });
         $('.modal-thank').css({
           display:"flex",
