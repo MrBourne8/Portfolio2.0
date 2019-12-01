@@ -1,0 +1,6 @@
+{
+  "less.compile": {
+    "out": "..\\css\\",
+    "compress": true,
+  }
+}
