@@ -315,38 +315,22 @@ header {
 .about__slider {
   width: 45%;
   max-width: 100%;
-
-  .slick-next,
-  .slick-next:focus,
-  .slick-next:hover {
-    background-image: url(img/about_next.png);
-    width: 35px;
-    height: 35px;
-    top: -30px;
-    right: 56px;
-
-    &:before {
-      content: '';
-    }
+  .flickity-prev-next-button.previous {
+    top: -25px;
+    right: 40px;
+    left: auto;
   }
-
-  .slick-prev,
-  .slick-prev:focus,
-  .slick-prev:hover {
-    background-image: url(img/about_prev.png);
-    width: 35px;
-    height: 35px;
-    top: -30px;
-    left: 370px;
-
-    &:before {
-      content: '';
-    }
+  .flickity-prev-next-button.next {
+    top: -25px;
   }
 }
 
 .about__slider__slide {
   padding: 0 40px;
+  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 // Название секции
@@ -726,33 +710,15 @@ header {
 }
 
 .reviews__slider {
-
-  .slick-next,
-  .slick-next:focus,
-  .slick-next:hover {
-    background-image: url(img/about_next.png);
-    width: 35px;
-    height: 35px;
-    top: 588px;
-    right: 56px;
-
-    &:before {
-      content: '';
-    }
+  .flickity-prev-next-button.next {
+    top: auto;
+    bottom: 10px;
   }
-
-  .slick-prev,
-  .slick-prev:focus,
-  .slick-prev:hover {
-    background-image: url(img/about_prev.png);
-    width: 35px;
-    height: 35px;
-    top: 588px;
-    left: 950px;
-
-    &:before {
-      content: '';
-    }
+  .flickity-prev-next-button.previous {
+    top: auto;
+    bottom: 10px;
+    left: auto;
+    right: 40px;
   }
 }
 
