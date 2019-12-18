@@ -51,19 +51,11 @@
       display: none;
     }
   }
-
-  .about__slider .slick-prev,
-  .about__slider .slick-prev:focus,
-  .about__slider .slick-prev:hover {
-    top: -30px;
-    left: 248px;
+  .main-screen__slider__slide {
+    padding: 0;
   }
-
-  .about__slider .slick-next,
-  .about__slider .slick-next:focus,
-  .about__slider .slick-next:hover {
-    top: -30px;
-    right: 0px;
+  .reviews__slide__img {
+    display: none;
   }
 }
 
@@ -112,6 +104,12 @@
     padding: 5px;
   }
 
+  .main-screen__slider {
+    .flickity-prev-next-button {
+      display: none;
+    }
+  }
+  
   .services__item {
     width: 100%;
   }
@@ -132,37 +130,16 @@
   .about__slider {
     width: 400px;
     margin: 0 auto;
-    padding-top: 30px;
-
-    .slick-next,
-    .slick-next:focus,
-    .slick-next:hover {
-      top: 0;
-    }
-
-    .slick-prev,
-    .slick-prev:focus,
-    .slick-prev:hover {
-      top: 0;
-    }
-
+    padding-top: 50px;
     img {
       max-width: 100%;
     }
-  }
-
-  .reviews__slider .slick-prev,
-  .reviews__slider .slick-prev:focus,
-  .reviews__slider .slick-prev:hover {
-    top: 438px;
-    left: 350px;
-  }
-
-  .reviews__slider .slick-next,
-  .reviews__slider .slick-next:focus,
-  .reviews__slider .slick-next:hover {
-    top: 438px;
-    right: 0;
+    .flickity-prev-next-button.previous {
+      top: 10px;
+    }
+    .flickity-prev-next-button.next {
+      top: 10px;
+    }
   }
 
   .footer__menu {
@@ -287,7 +264,7 @@
       }
     }
 
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -381,7 +358,7 @@
   .modal-callbak {
     margin-top: -160px;
     width: 320px;
-    height: 320px;
+    height: auto;
     margin-left: -160px;
   }
 
@@ -398,6 +375,21 @@
   header {
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 5px;
+  }
+  
+  .main-screen {
+    padding: 0 0 20px;
+  }
+
+  .main-screen__slider-title {
+    font-size: 16pt;
+    text-align: center;
+  }
+
+  .main-screen__slider-text {
+    font-size: 18pt;
+    text-align: center;
   }
 
   .header__phone {
@@ -407,10 +399,55 @@
   .header__btn {
     margin-right: 0px;
   }
+  
+  .form__form {
+    padding: 10px 15px 20px;
+  }
+
+  .steps__item {
+    width: 220px;
+    height: 220px;
+  }
+
+  .guarantee__item {
+    p {
+      font-size: 12pt;
+    }
+  }
+
+  .reviews__user {
+    flex-wrap: wrap;
+  }
+
+  .geo, .tel, .mail {
+    &:before {
+      display: none;
+    }
+  }
+
+  .achievements__content {
+    flex-wrap: wrap;
+  }
+
+  .achievements__item {
+    width: 50%;
+  }
 
   .menu-link {
     right: 20px;
     top: 7px;
+  }
+
+  .services__item {
+    p {
+      span {
+        font-size: 14pt;
+      }
+    }
+  }
+
+  .about__content {
+    padding-top: 0;
   }
 }
 
