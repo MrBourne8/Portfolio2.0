@@ -1,6 +1,6 @@
 // Общие стили
 *:-webkit-input-placeholder {
-    color: #667;
+    color: #668;
     opacity: 1;
 }
 
@@ -17,6 +17,10 @@
 *:-ms-input-placeholder {
     color: #667;
     opacity: 1;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 body {
@@ -79,9 +83,9 @@ header {
 }
 
 .logo {
-    background-color: #fff;
-    width: 144px;
-    height: 48px;
+    img {
+        max-width: 100%;
+    }
 }
 
 .header__phone {
@@ -117,6 +121,7 @@ header {
     color: #fff;
     padding: 10px 0 80px 0;
     position: relative;
+    text-align: center;
 }
 
 .main-screen__slider {
@@ -130,8 +135,11 @@ header {
 
     .flickity-prev-next-button.next {
         background-image: url(img/next.png);
-        width: 30px;
-        height: 51px;
+        width: 26px;
+        height: 18px;
+        right: 50%;
+        top: 100%;
+        transform: translate(90px);
 
         &:before {
             content: '';
@@ -140,8 +148,11 @@ header {
 
     .flickity-prev-next-button.previous {
         background-image: url(img/prev.png);
-        width: 30px;
-        height: 51px;
+        width: 26px;
+        height: 18px;
+        left: 50%;
+        top: 100%;
+        transform: translate(-90px);
 
         &:before {
             content: '';
@@ -152,7 +163,7 @@ header {
 .main-screen__slider__slide {
     width: 100%;
     margin: 0 auto;
-    padding: 80px 280px 40px 180px;
+    padding: 80px 180px 40px 180px;
 }
 
 
@@ -235,6 +246,30 @@ header {
 .for-whom {
     background-color: #0056af;
     position: relative;
+
+    &:before {
+        content: '';
+        display: block;
+        background-image: url(img/bg_top.png);
+        width: 1920px;
+        height: 93px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: -93px;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        background-image: url(img/bg_bottom.png);
+        width: 1920px;
+        height: 93px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-bottom: -93px;
+    }
 }
 
 .for-whom__top {
@@ -245,11 +280,15 @@ header {
     -webkit-box-shadow: 0px 0px 17px -6px rgba(0, 0, 0, 0.64);
     -moz-box-shadow: 0px 0px 17px -6px rgba(0, 0, 0, 0.64);
     box-shadow: 0px 0px 17px -6px rgba(0, 0, 0, 0.64);
-    margin: -30px auto 0;
+    margin: -60px auto 0;
     font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .for-whom__wrap {
@@ -293,7 +332,7 @@ header {
 
 // Название секции
 .about {
-    padding: 20px 0 80px;
+    padding: 60px 0 100px;
 }
 
 .about__info__title {
@@ -366,6 +405,18 @@ header {
     background-color: #0056af;
     color: #fff;
     padding: 20px 0 100px;
+
+    &:before {
+        content: '';
+        display: block;
+        background-image: url(img/bg_top.png);
+        width: 1920px;
+        height: 93px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: -93px;
+    }
 }
 
 .achievements__wrap {
@@ -386,7 +437,8 @@ header {
     justify-content: center;
     text-align: center;
     padding: 5px 40px;
-    margin-top: -40px;
+    margin-top: -50px;
+    z-index: 5;
 
     p {
         font-family: "Geometria-Bold";
@@ -431,7 +483,7 @@ header {
 .form {
     background-image: url(img/form_bg.jpg);
     color: #fff;
-    padding: 5px 0 60px;
+    padding: 5px 0 106px;
 }
 
 .form__wrap {
@@ -497,9 +549,33 @@ header {
 
 // Название секции
 .steps {
-    background-color: #0056af;
+    background-color: #007be8;
     color: #fff;
     padding: 30px 0;
+
+    &:before {
+        content: '';
+        display: block;
+        background-image: url(img/steps_line.png);
+        width: 1920px;
+        height: 92px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: -93px;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        background-image: url(img/steps_line1.png);
+        width: 1920px;
+        height: 92px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-bottom: -92px;
+    }
 
     .section-title {
 
@@ -530,7 +606,7 @@ header {
     &::before {
         content: '';
         display: block;
-        background-color: #0056af;
+        background-color: #007be8;
         position: absolute;
         left: 0;
         top: 0;
@@ -554,7 +630,7 @@ header {
     &::before {
         content: '1 шаг:';
         display: block;
-        background-color: #0056af;
+        background-color: #007be8;
         text-align: left;
     }
 }
@@ -563,7 +639,7 @@ header {
     &::before {
         content: '2 шаг:';
         display: block;
-        background-color: #0056af;
+        background-color: #007be8;
         text-align: left;
     }
 }
@@ -572,7 +648,7 @@ header {
     &::before {
         content: '3 шаг:';
         display: block;
-        background-color: #0056af;
+        background-color: #007be8;
         text-align: left;
     }
 }
@@ -581,7 +657,7 @@ header {
     &::before {
         content: '4 шаг:';
         display: block;
-        background-color: #0056af;
+        background-color: #007be8;
         text-align: left;
     }
 }
@@ -590,7 +666,7 @@ header {
     &::before {
         content: '5 шаг:';
         display: block;
-        background-color: #0056af;
+        background-color: #007be8;
         text-align: left;
     }
 }
@@ -645,7 +721,7 @@ header {
 .advantages {
     background-image: url(img/advantages_bg.jpg);
     color: #fff;
-    padding: 30px 0 50px;
+    padding: 70px 0 50px;
 
     .section-title {
 
@@ -687,6 +763,11 @@ header {
 // Название секции
 
 // Название секции
+.guarantee {
+    background-image: url(img/guarantee_bg.jpg);
+    color: #fff;
+}
+
 .guarantee__wrap {
     display: flex;
     justify-content: center;
@@ -733,6 +814,7 @@ header {
 .reviews__wrap {
     background-color: #fff;
     padding: 25px;
+    margin-top: 20px;
 }
 
 .reviews__slider {
@@ -915,26 +997,28 @@ footer {
     background-color: #272634;
     padding-bottom: 20px;
     color: #fff;
+    padding: 15px 0;
 
     .footer__wrap {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        border-bottom: 1px solid #fff;
     }
 }
 
 .footer__menu {
     ul {
         list-style: none;
-        padding: 0;
+        padding: 0 0 0 30px;
         width: 400px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         li {
-            display: inline-block;
+            width: 100%;
+            padding: 5px 0;
 
             a {
                 color: #fff;
@@ -948,18 +1032,31 @@ footer {
     }
 }
 
-.logo {
-    background-color: #fff;
-    width: 144px;
-    height: 48px;
-}
 
-.footer__phone {
-    text-align: center;
+.footer__cons {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+
+    img {
+        margin-right: 20px;
+    }
 
     p {
         font-family: "Geometria-Bold";
         color: #fff;
+    }
+}
+
+.footer__cons__info {
+    display: flex;
+    flex-wrap: wrap;
+
+    p {
+        width: 100%;
     }
 }
 

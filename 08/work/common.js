@@ -31,7 +31,7 @@ $('.main-screen__slider').flickity({
     cellAlign: 'left',
     contain: true,
     wrapAround: true,
-    pageDots: false
+    pageDots: true
 });
 //Слайдер главного экрана
 
