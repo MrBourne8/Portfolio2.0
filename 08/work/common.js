@@ -26,34 +26,50 @@ $(".request-form").submit(function(e) {
 //Аякс отправка форм
 
 //Слайдер главного экрана
-$('.main-screen__slider').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    wrapAround: true,
-    pageDots: true
+$(document).ready(function() {
+    //initialize swiper when document ready
+    var mySwiper = new Swiper('.main-screen__slider', {
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
 });
 //Слайдер главного экрана
 
 //Слайдер сертификаты
-$('.about__slider').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    wrapAround: true,
-    pageDots: false,
-    adaptiveHeight: true
+$(document).ready(function() {
+    //initialize swiper when document ready
+    var mySwiper = new Swiper('.about__slider', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev ',
+        },
+        loop: true,
+    });
 });
 //Слайдер сертификаты
 
 //Слайдер отзывы
-$('.reviews__slider').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    wrapAround: true,
-    pageDots: false,
-    adaptiveHeight: true,
+$(document).ready(function() {
+    //initialize swiper when document ready
+    var mySwiper = new Swiper('.reviews__slider', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev ',
+        },
+        loop: true,
+        autoHeight: true,
+    });
 });
 //Слайдер отзывы
 

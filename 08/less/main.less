@@ -136,45 +136,37 @@ header {
 }
 
 .main-screen__slider {
-    .flickity-button {
-        background: none;
-
-        svg {
-            display: none;
-        }
+    .swiper-container {
+        padding-bottom: 20px;
     }
 
-    .flickity-prev-next-button.next {
-        background-image: url(img/next.png);
-        width: 26px;
-        height: 18px;
+    .swiper-pagination-fraction {
+        padding-bottom: 0;
+        font-family: "Geometria-Bold";
+        font-size: 16pt;
+    }
+
+    .swiper-button-next {
         right: 50%;
-        top: 100%;
         transform: translate(90px);
-
-        &:before {
-            content: '';
-        }
+        bottom: 3px;
+        top: auto;
+        color: #fff;
     }
 
-    .flickity-prev-next-button.previous {
-        background-image: url(img/prev.png);
-        width: 26px;
-        height: 18px;
+    .swiper-button-prev {
         left: 50%;
-        top: 100%;
         transform: translate(-90px);
-
-        &:before {
-            content: '';
-        }
+        bottom: 3px;
+        top: auto;
+        color: #fff;
     }
 }
 
 .main-screen__slider__slide {
     width: 100%;
     margin: 0 auto;
-    padding: 80px 180px 40px 180px;
+    padding: 40px 180px 58px 180px;
 }
 
 
@@ -201,6 +193,14 @@ header {
     &:hover {
         background-color: #0906af;
     }
+}
+
+.main-screen__slider__info {
+    font-family: "Geometria-Bold";
+    font-size: 16pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 // Главный экран
@@ -372,40 +372,44 @@ header {
 .about__slider {
     width: 45%;
     max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 50px;
 
-    .flickity-prev-next-button.previous {
+    .swiper-button-prev {
         background-image: url(img/about_prev.png);
         width: 35px;
         height: 35px;
         border-radius: 0;
-        top: -25px;
+        top: 28px;
         right: 58px;
         left: auto;
 
-        svg {
+        &:after {
             display: none;
         }
     }
 
-    .flickity-prev-next-button.next {
+    .swiper-button-next {
         background-image: url(img/about_next.png);
         width: 35px;
         height: 35px;
         border-radius: 0;
-        top: -25px;
+        top: 28px;
 
-        svg {
+        &:after {
             display: none;
         }
     }
 }
 
 .about__slider__slide {
-    padding: 0 40px;
+    padding: 0 10px;
     width: 100%;
 
     img {
         width: 100%;
+        max-width: 100%;
     }
 }
 
@@ -841,30 +845,30 @@ header {
 }
 
 .reviews__slider {
-    .flickity-prev-next-button.next {
-        background-image: url(img/about_next.png);
+    .swiper-button-prev {
+        background-image: url(img/about_prev.png);
         width: 35px;
         height: 35px;
-        top: auto;
-        bottom: 10px;
         border-radius: 0;
+        bottom: 0;
+        top: auto;
+        right: 58px;
+        left: auto;
 
-        svg {
+        &:after {
             display: none;
         }
     }
 
-    .flickity-prev-next-button.previous {
-        background-image: url(img/about_prev.png);
+    .swiper-button-next {
+        background-image: url(img/about_next.png);
         width: 35px;
         height: 35px;
-        top: auto;
-        bottom: 10px;
-        left: auto;
-        right: 58px;
         border-radius: 0;
+        bottom: 0;
+        top: auto;
 
-        svg {
+        &:after {
             display: none;
         }
     }

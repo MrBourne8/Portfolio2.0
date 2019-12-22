@@ -38,7 +38,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/bootstrap-grid.min.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" href="libs/flickity/flickity.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" type="text/css" href="css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.min.css" />
@@ -74,31 +74,38 @@
                     <a class="header__wp__number" href="#">1234567890</a>
                 </div>
             </header> <!-- Шапка End-->
-            <div class="main-screen__slider">
-                <div class="main-screen__slider__slide">
-                    <p class="main-screen__slider-text">Выгодная программа приобретения жилья в рассрочку на 10 лет:</p>
-                    <h1 class="main-screen__slider-title">Стоимость вашей квартиры и ежемесячные платежи меньше минимум в 2 раза,
-                        чем по ипотеке</h1>
-                    <p class="main-screen__slider-info">Унайте подробнее о программе, которая сэкономит Вам несколько миллионов
-                        тенге для ремонта или техники и мебели, получите расчет по своей квартире и сертификат на ценные призы</p>
-                    <button class="main-screen__slider__btn">Узнать подробнее</button>
+            <div class="main-screen__slider swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="main-screen__slider__slide swiper-slide">
+                        <p class="main-screen__slider-text">Выгодная программа приобретения жилья в рассрочку на 10 лет:</p>
+                        <h1 class="main-screen__slider-title">Стоимость вашей квартиры и ежемесячные платежи меньше минимум в 2 раза,
+                            чем по ипотеке</h1>
+                        <p class="main-screen__slider-info">Унайте подробнее о программе, которая сэкономит Вам несколько миллионов
+                            тенге для ремонта или техники и мебели, получите расчет по своей квартире и сертификат на ценные призы</p>
+                        <button class="main-screen__slider__btn">Узнать подробнее</button>
+                    </div>
+                    <div class="main-screen__slider__slide swiper-slide">
+                        <p class="main-screen__slider-text">Выгодная программа приобретения жилья в рассрочку на 10 лет:</p>
+                        <h1 class="main-screen__slider-title">Стоимость вашей квартиры и ежемесячные платежи меньше минимум в 2 раза,
+                            чем по ипотеке</h1>
+                        <p class="main-screen__slider-info">Унайте подробнее о программе, которая сэкономит Вам несколько миллионов
+                            тенге для ремонта или техники и мебели, получите расчет по своей квартире и сертификат на ценные призы</p>
+                        <button class="main-screen__slider__btn">Узнать подробнее</button>
+                    </div>
+                    <div class="main-screen__slider__slide swiper-slide">
+                        <p class="main-screen__slider-text">Выгодная программа приобретения жилья в рассрочку на 10 лет:</p>
+                        <h1 class="main-screen__slider-title">Стоимость вашей квартиры и ежемесячные платежи меньше минимум в 2 раза,
+                            чем по ипотеке</h1>
+                        <p class="main-screen__slider-info">Унайте подробнее о программе, которая сэкономит Вам несколько миллионов
+                            тенге для ремонта или техники и мебели, получите расчет по своей квартире и сертификат на ценные призы</p>
+                        <button class="main-screen__slider__btn">Узнать подробнее</button>
+                    </div>
                 </div>
-                <div class="main-screen__slider__slide">
-                    <p class="main-screen__slider-text">Выгодная программа приобретения жилья в рассрочку на 10 лет:</p>
-                    <h1 class="main-screen__slider-title">Стоимость вашей квартиры и ежемесячные платежи меньше минимум в 2 раза,
-                        чем по ипотеке</h1>
-                    <p class="main-screen__slider-info">Унайте подробнее о программе, которая сэкономит Вам несколько миллионов
-                        тенге для ремонта или техники и мебели, получите расчет по своей квартире и сертификат на ценные призы</p>
-                    <button class="main-screen__slider__btn">Узнать подробнее</button>
-                </div>
-                <div class="main-screen__slider__slide">
-                    <p class="main-screen__slider-text">Выгодная программа приобретения жилья в рассрочку на 10 лет:</p>
-                    <h1 class="main-screen__slider-title">Стоимость вашей квартиры и ежемесячные платежи меньше минимум в 2 раза,
-                        чем по ипотеке</h1>
-                    <p class="main-screen__slider-info">Унайте подробнее о программе, которая сэкономит Вам несколько миллионов
-                        тенге для ремонта или техники и мебели, получите расчет по своей квартире и сертификат на ценные призы</p>
-                    <button class="main-screen__slider__btn">Узнать подробнее</button>
-                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
     </section>
@@ -174,16 +181,21 @@
                         кооператива, и не ставит своей целью извлечение прибыли.
                     </p>
                 </div>
-                <div class="about__slider">
-                    <div class="about__slider__slide">
-                        <img src="img/slider_sert/01.jpg" alt="Sertificate">
+                <div class="about__slider swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="about__slider__slide swiper-slide">
+                            <img src="img/slider_sert/01.jpg" alt="Sertificate">
+                        </div>
+                        <div class="about__slider__slide swiper-slide">
+                            <img src="img/slider_sert/02.jpg" alt="Sertificate">
+                        </div>
+                        <div class="about__slider__slide swiper-slide">
+                            <img src="img/slider_sert/03.jpg" alt="Sertificate">
+                        </div>
                     </div>
-                    <div class="about__slider__slide">
-                        <img src="img/slider_sert/01.jpg" alt="Sertificate">
-                    </div>
-                    <div class="about__slider__slide">
-                        <img src="img/slider_sert/01.jpg" alt="Sertificate">
-                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
             <div class="about__info">
@@ -384,113 +396,118 @@
         <div class="container">
             <h2 class="section-title">Отзывы</h2>
             <div class="reviews__wrap">
-                <div class="reviews__slider">
-                    <div class="reviews__slider__slide">
-                        <div class="reviews__slide__img">
-                            <img src="img/reviews/01.jpg" alt="Image">
-                        </div>
-                        <div class="reviews__content">
-                            <div class="reviews__user">
-                                <img src="img/reviews/users/01.jpg" alt="User">
-                                <div class="reviews__user-info">
-                                    <p>Айжанов Руслан</p>
-                                    <!-- <p>37 лет</p>
-                                        <p>г. Москва</p> -->
+                <div class="reviews__slider swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="reviews__slider__slide swiper-slide">
+                            <div class="reviews__slide__img">
+                                <img src="img/reviews/01.jpg" alt="Image">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__user">
+                                    <img src="img/reviews/users/01.jpg" alt="User">
+                                    <div class="reviews__user-info">
+                                        <p>Айжанов Руслан</p>
+                                        <!-- <p>37 лет</p>
+                                            <p>г. Москва</p> -->
+                                    </div>
+                                </div>
+                                <div class="reviews__text">
+                                    <p class="reviews__title">Отзыв</p>
+                                    <p>
+                                        Я узнал о кооперативе Бест Вей в 2016 году, летя в самолете, из журнала «Аспан». Начал искать информацию в интернете. Нашел консультанта, встретился с ним. Мы с супругой решили вложиться в Жилищный кооператив, встали в очередь в том же году. И уже через 7 месяцев наша очередь подошла, мы выбрали 3-х комнатную квартиру в ЖК «Аль Фараби» в г. Алматы за 28 млн. тенге. В настоящее время мы встали в очередь еще на две квартиры. Благодарим ЖК «Бест Вей» за осуществление мечт.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="reviews__text">
-                                <p class="reviews__title">Отзыв</p>
-                                <p>
-                                    Я узнал о кооперативе Бест Вей в 2016 году, летя в самолете, из журнала «Аспан». Начал искать информацию в интернете. Нашел консультанта, встретился с ним. Мы с супругой решили вложиться в Жилищный кооператив, встали в очередь в том же году. И уже через 7 месяцев наша очередь подошла, мы выбрали 3-х комнатную квартиру в ЖК «Аль Фараби» в г. Алматы за 28 млн. тенге. В настоящее время мы встали в очередь еще на две квартиры. Благодарим ЖК «Бест Вей» за осуществление мечт.
-                                </p>
+                        </div>
+                        <div class="reviews__slider__slide swiper-slide">
+                            <div class="reviews__slide__img">
+                                <img src="img/reviews/01.jpg" alt="Image">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__user">
+                                    <img src="img/reviews/users/02.jpg" alt="User">
+                                    <div class="reviews__user-info">
+                                        <p>Зухра</p>
+                                        <!-- <p>37 лет</p>
+                                            <p>г. Москва</p> -->
+                                    </div>
+                                </div>
+                                <div class="reviews__text">
+                                    <p class="reviews__title">Отзыв</p>
+                                    <p>
+                                        Здравствуйте, меня зовут Зухра. Мы живем в Луговом Жамбылской области. Всегда мечтали иметь квартиру в г. Алматы. По возрасту ипотечные программы мне не подходили и я искала варианты. Моя знакомая посоветовала обратиться в ЖК Бест Вей. Изучив все подробно, я вступила в кооператив на 2 квартиры по двум программам: за первую я внесла 35% в декабре 2017 года, в очереди стояла 9 месяцев и августе 2018 года купила 3-х комнатную квартиру в г. Каскелен Алматинской области за 15 млн. тенге с ежемесячным платежом 91250 тенге. На вторую квартиру я встала по накопительной программе, планирую купить в самом городе Алматы. Я довольна.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__slider__slide swiper-slide">
+                            <div class="reviews__slide__img">
+                                <img src="img/reviews/01.jpg" alt="Image">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__user">
+                                    <img src="img/reviews/users/01.jpg" alt="User">
+                                    <div class="reviews__user-info">
+                                        <p>Уточнить</p>
+                                        <!-- <p>37 лет</p>
+                                            <p>г. Москва</p> -->
+                                    </div>
+                                </div>
+                                <div class="reviews__text">
+                                    <p class="reviews__title">Отзыв</p>
+                                    <p>
+                                        Когда я собралась покупать квартиру в ипотеку, у меня была надежда на Жилстойсбербанк, но мне там отказали. Я нашла еще более выгодный, доступный вариант , а самое главное мне понравилась прозрачность работы кооператива, что на сайте в своем личном кабинете я могла видеть и наблюдать за продвижением своей очереди. 15 ноября 2017 года я вступила в ЖК Бест Вей, в очередь встала в мае 2018 года. За 11 месяцев подошла моя очередь и уже в апреле 2019 года мы отметили новоселье в своей новой 1-комнатной квартиру за 9 600 000 тенге, ежемесячный платеж составляет всего 59 000 тенге.
+                                        Как говориться аппетит приходит во время еды и мы решили купить еще одну, но уже 3-х комнатную! Я была приятно удивлена, так как за приобретение второго жилье через ЖК, я освобождаюсь от уплаты членского взноса и получаю 50% скидку на вступительный взнос. Всего я сэкономила 1 640 000 тенге, переплата за вторую квартиру за 10 лет составит 740 000 тенге. Таких выгодных условий точно нигде нет! Боже мой, как же я благодарна, что у нас в Казахстане есть такой кооператив.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__slider__slide swiper-slide">
+                            <div class="reviews__slide__img">
+                                <img src="img/reviews/01.jpg" alt="Image">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__user">
+                                    <img src="img/reviews/users/03.jpg" alt="User">
+                                    <div class="reviews__user-info">
+                                        <p>Есмагамбетова Клара</p>
+                                        <!-- <p>37 лет</p>
+                                            <p>г. Москва</p> -->
+                                    </div>
+                                </div>
+                                <div class="reviews__text">
+                                    <p class="reviews__title">Отзыв</p>
+                                    <p>
+                                        С Жилищным Кооперативом «Бест Вей-Недвижимость» я знакома около 4 лет. 2 года я изучала, присматривалась. Убедилась, что кооператив работает по закону РК, очередь движется быстро, что это не очередная пирамида, условия хорошие. Если бы не ЖК «Бест Вей» даже не знаю, смогли бы мы купить за 2 года 2 квартиры, наверное нет, 2 ипотеки моя семья точно бы не осилила. Нашей радости нет предела. Вот уже на третью квартиру встали в очередь. Дай Аллах еще одно новоселье отмечать будем. Очень рекомендую ЖК Бест Вей, проверено годами и людьми.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__slider__slide swiper-slide">
+                            <div class="reviews__slide__img">
+                                <img src="img/reviews/01.jpg" alt="Image">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__user">
+                                    <img src="img/reviews/users/04.jpg" alt="User">
+                                    <div class="reviews__user-info">
+                                        <p>Сырлыбай Ерасыл</p>
+                                        <!-- <p>37 лет</p>
+                                            <p>г. Москва</p> -->
+                                    </div>
+                                </div>
+                                <div class="reviews__text">
+                                    <p class="reviews__title">Отзыв</p>
+                                    <p>
+                                        2 февраля 2018 года я вступил в кооператив «Бест Вей-Недвижимость» и уже 3 октября того же года подошла моя очередь. Мы купили однокомнатную квартиру в г. Алматы в районе Торгового Центра «Глобус» за 13 млн. тенге с ремонтом. Ежемесячный платеж оставляет всего 80 416 тенге. До того как обратиться в кооператив, я обошел много банков, мне везде отказывали, потому что у меня не было пенсионных отчислений и я не мог подтвердить свой доход. Сейчас моя семья очень довольна, счастлива и благодарна кооперативу «Бет Вей». Я поверил, вступил и мое доверие было оправдано!
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="reviews__slider__slide">
-                        <div class="reviews__slide__img">
-                            <img src="img/reviews/01.jpg" alt="Image">
-                        </div>
-                        <div class="reviews__content">
-                            <div class="reviews__user">
-                                <img src="img/reviews/users/02.jpg" alt="User">
-                                <div class="reviews__user-info">
-                                    <p>Зухра</p>
-                                    <!-- <p>37 лет</p>
-                                        <p>г. Москва</p> -->
-                                </div>
-                            </div>
-                            <div class="reviews__text">
-                                <p class="reviews__title">Отзыв</p>
-                                <p>
-                                    Здравствуйте, меня зовут Зухра. Мы живем в Луговом Жамбылской области. Всегда мечтали иметь квартиру в г. Алматы. По возрасту ипотечные программы мне не подходили и я искала варианты. Моя знакомая посоветовала обратиться в ЖК Бест Вей. Изучив все подробно, я вступила в кооператив на 2 квартиры по двум программам: за первую я внесла 35% в декабре 2017 года, в очереди стояла 9 месяцев и августе 2018 года купила 3-х комнатную квартиру в г. Каскелен Алматинской области за 15 млн. тенге с ежемесячным платежом 91250 тенге. На вторую квартиру я встала по накопительной программе, планирую купить в самом городе Алматы. Я довольна.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="reviews__slider__slide">
-                        <div class="reviews__slide__img">
-                            <img src="img/reviews/01.jpg" alt="Image">
-                        </div>
-                        <div class="reviews__content">
-                            <div class="reviews__user">
-                                <img src="img/reviews/users/01.jpg" alt="User">
-                                <div class="reviews__user-info">
-                                    <p>Уточнить</p>
-                                    <!-- <p>37 лет</p>
-                                        <p>г. Москва</p> -->
-                                </div>
-                            </div>
-                            <div class="reviews__text">
-                                <p class="reviews__title">Отзыв</p>
-                                <p>
-                                    Когда я собралась покупать квартиру в ипотеку, у меня была надежда на Жилстойсбербанк, но мне там отказали. Я нашла еще более выгодный, доступный вариант , а самое главное мне понравилась прозрачность работы кооператива, что на сайте в своем личном кабинете я могла видеть и наблюдать за продвижением своей очереди. 15 ноября 2017 года я вступила в ЖК Бест Вей, в очередь встала в мае 2018 года. За 11 месяцев подошла моя очередь и уже в апреле 2019 года мы отметили новоселье в своей новой 1-комнатной квартиру за 9 600 000 тенге, ежемесячный платеж составляет всего 59 000 тенге.
-                                    Как говориться аппетит приходит во время еды и мы решили купить еще одну, но уже 3-х комнатную! Я была приятно удивлена, так как за приобретение второго жилье через ЖК, я освобождаюсь от уплаты членского взноса и получаю 50% скидку на вступительный взнос. Всего я сэкономила 1 640 000 тенге, переплата за вторую квартиру за 10 лет составит 740 000 тенге. Таких выгодных условий точно нигде нет! Боже мой, как же я благодарна, что у нас в Казахстане есть такой кооператив.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="reviews__slider__slide">
-                        <div class="reviews__slide__img">
-                            <img src="img/reviews/01.jpg" alt="Image">
-                        </div>
-                        <div class="reviews__content">
-                            <div class="reviews__user">
-                                <img src="img/reviews/users/03.jpg" alt="User">
-                                <div class="reviews__user-info">
-                                    <p>Есмагамбетова Клара</p>
-                                    <!-- <p>37 лет</p>
-                                        <p>г. Москва</p> -->
-                                </div>
-                            </div>
-                            <div class="reviews__text">
-                                <p class="reviews__title">Отзыв</p>
-                                <p>
-                                    С Жилищным Кооперативом «Бест Вей-Недвижимость» я знакома около 4 лет. 2 года я изучала, присматривалась. Убедилась, что кооператив работает по закону РК, очередь движется быстро, что это не очередная пирамида, условия хорошие. Если бы не ЖК «Бест Вей» даже не знаю, смогли бы мы купить за 2 года 2 квартиры, наверное нет, 2 ипотеки моя семья точно бы не осилила. Нашей радости нет предела. Вот уже на третью квартиру встали в очередь. Дай Аллах еще одно новоселье отмечать будем. Очень рекомендую ЖК Бест Вей, проверено годами и людьми.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="reviews__slider__slide">
-                        <div class="reviews__slide__img">
-                            <img src="img/reviews/01.jpg" alt="Image">
-                        </div>
-                        <div class="reviews__content">
-                            <div class="reviews__user">
-                                <img src="img/reviews/users/04.jpg" alt="User">
-                                <div class="reviews__user-info">
-                                    <p>Сырлыбай Ерасыл</p>
-                                    <!-- <p>37 лет</p>
-                                        <p>г. Москва</p> -->
-                                </div>
-                            </div>
-                            <div class="reviews__text">
-                                <p class="reviews__title">Отзыв</p>
-                                <p>
-                                    2 февраля 2018 года я вступил в кооператив «Бест Вей-Недвижимость» и уже 3 октября того же года подошла моя очередь. Мы купили однокомнатную квартиру в г. Алматы в районе Торгового Центра «Глобус» за 13 млн. тенге с ремонтом. Ежемесячный платеж оставляет всего 80 416 тенге. До того как обратиться в кооператив, я обошел много банков, мне везде отказывали, потому что у меня не было пенсионных отчислений и я не мог подтвердить свой доход. Сейчас моя семья очень довольна, счастлива и благодарна кооперативу «Бет Вей». Я поверил, вступил и мое доверие было оправдано!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </div>
@@ -503,7 +520,7 @@
             <div class="contact__wrap">
                 <div class="adres">
                     <p class="adres__title geo">Город Москва</p>
-                    <p class="adres__title tel">+7(878) 78 87 78</p>
+                    <p class="adres__title tel">8 702 189 67 25</p>
                     <p class="adres__title mail">Эл.почта@mail.ru</p>
                     <p class="adress__green">Остались вопросы?</p>
                     <p>Мы вам перезвоним в течении 1 минуты!</p>
@@ -536,8 +553,8 @@
                         <img src="img/cons.jpg" alt="Img">
                     </div>
                     <div class="footer__cons__info">
-                        <p class="footer__cons__name">Елена Белова</p>
-                        <p class="footer__cons__age">37 лет</p>
+                        <p class="footer__cons__name">Абдильденова Альфия Ирановна</p>
+                        <p class="footer__cons__age">8 702 189 67 25</p>
                         <p class="footer__cons__cons">Консультант</p>
                     </div>
                 </div>
@@ -575,7 +592,7 @@
     <script src="libs/respond/respond.min.js"></script>
 <![endif]-->
     <script src="libs/jquery/jquery-3.3.1.min.js"></script>
-    <script src="libs/flickity/flickity.pkgd.min.js"></script>
+    <script src="libs/swiper/swiper.min.js"></script>
     <script src="libs/animate/wow.min.js"></script>
     <script src="libs/waypoints/jquery.waypoints.js"></script>
     <script src="js/common.min.js"></script>
