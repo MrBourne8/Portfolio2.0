@@ -7,24 +7,6 @@
         width: 220px;
         height: 220px;
     }
-
-    .about__slider .slick-prev,
-    .about__slider .slick-prev:focus,
-    .about__slider .slick-prev:hover {
-        width: 35px;
-        height: 35px;
-        top: -30px;
-        left: 320px;
-    }
-
-    .about__slider .slick-next,
-    .about__slider .slick-next:focus,
-    .about__slider .slick-next:hover {
-        width: 35px;
-        height: 35px;
-        top: -30px;
-        right: 18px;
-    }
 }
 
 /**/
@@ -106,6 +88,19 @@
         padding: 5px;
     }
 
+    .main-screen,
+    .for-whom,
+    .achievements,
+    .steps {
+        &:after {
+            display: none;
+        }
+
+        &:before {
+            display: none;
+        }
+    }
+
     .main-screen__slider {
         .flickity-prev-next-button {
             display: none;
@@ -117,7 +112,7 @@
     }
 
     .for-whom__top {
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
@@ -147,8 +142,17 @@
         }
     }
 
+    .footer__wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .footer__menu {
         display: none;
+    }
+
+    .footer__cons {
+        padding: 5px 5px 20px;
     }
 
     .main-screen__slider__slide {
@@ -189,13 +193,19 @@
     }
 
     .advantages__item {
-        width: auto;
+        width: 50%;
     }
 
     .guarantee__left,
     .guarantee__right,
     .guarantee__bottom {
         width: 100%;
+    }
+
+    .guarantee__item__block {
+        width: 50px;
+        min-width: 50px;
+        height: 50px;
     }
 
     .contact__wrap {
@@ -345,14 +355,6 @@
     .reviews__slide__img {
         display: none;
     }
-
-    .reviews__wrap {
-        padding: 0;
-
-        .slick-slide {
-            width: 400px;
-        }
-    }
 }
 
 /* Extra Small Devices, Phones */
@@ -378,9 +380,15 @@
 
     // Стили окна благодарности
     header {
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap: wrap;
         padding-bottom: 5px;
+    }
+
+    .logo {
+        img {
+            max-width: 70%;
+        }
     }
 
     .main-screen {
@@ -397,12 +405,19 @@
         text-align: center;
     }
 
+    .main-screen__slider {
+        .flickity-page-dots {
+            display: none;
+        }
+    }
+
     .header__phone {
-        width: 100%;
+        display: none;
     }
 
     .header__btn {
         margin-right: 0px;
+        display: none;
     }
 
     .form__form {
@@ -424,6 +439,14 @@
         flex-wrap: wrap;
     }
 
+    .reviews__user-info {
+        padding: 0;
+
+        p {
+            font-family: "Geometria-Bold";
+        }
+    }
+
     .geo,
     .tel,
     .mail {
@@ -438,6 +461,12 @@
 
     .achievements__item {
         width: 50%;
+    }
+
+    .achievements__block {
+        p {
+            font-size: 13pt;
+        }
     }
 
     .menu-link {
@@ -455,6 +484,31 @@
 
     .about__content {
         padding-top: 0;
+    }
+
+    .advantages__item {
+        width: 100%;
+        padding-top: 15px;
+
+        img {
+            max-width: 30%;
+        }
+    }
+
+    .reviews__content {
+        padding: 0;
+    }
+
+    .footer__cons {
+        p {
+            margin: 5px 0;
+        }
+    }
+
+    .footer__cons__img {
+        img {
+            max-width: 90%;
+        }
     }
 }
 
@@ -476,7 +530,11 @@
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 480px) {
+    .header__wp {
+        display: none;
+    }
+}
 
 /**/
 

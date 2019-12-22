@@ -89,3 +89,5 @@ nav_link.click(function() {
     menu.toggleClass('menu_active');
 });
 /*Адаптивное меню*/
+
+new WOW().init();
