@@ -1,73 +1,31 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-
-@media only screen and (max-width: 1200px) {
-    .for-whom__item {
-        width: 220px;
-        height: 220px;
-    }
-}
+@media only screen and (max-width : 1200px) {}
 
 /**/
 
 /* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
 
-@media only screen and (max-width: 992px) {
-    .for-whom__wrap {
-        flex-wrap: wrap;
-        justify-content: center;
+    .option__number,
+    .number-r {
+        width: 200px;
     }
 
-    .for-whom__item {
-        margin: 10px;
-    }
-
-    .form__info,
-    .form__form {
-        width: 50%;
-    }
-
-    .steps__item {
-        &:after {
-            display: none;
+    .presentation__item {
+        h2 {
+            font-size: 26px;
         }
-    }
-
-    .main-screen__slider__slide {
-        padding: 0;
-    }
-
-    .reviews__slide__img {
-        display: none;
-    }
-
-    .step_1 {
-        order: 1;
-    }
-
-    .step_2 {
-        order: 2;
-    }
-
-    .step_3 {
-        order: 3;
-    }
-
-    .step_4 {
-        order: 4;
-    }
-
-    .step_5 {
-        order: 5;
     }
 }
 
 /**/
 
-/* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
 
     /*Disable Animation on Mobile Devices*/
     .animated {
@@ -91,15 +49,47 @@
         animation: none !important;
     }
 
-    // Стили модального окна
+    .option__wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .option__item {
+        text-align: center;
+        display: flex;
+        width: 50%;
+
+        h2 {
+            font-size: 12px;
+        }
+    }
+
+    .option__number {
+        width: 50%;
+    }
+
+    .option__img {
+        order: -1;
+        width: 75%;
+    }
+
+    .number_r {
+        text-align: center;
+    }
+
+    .presentation__item {
+        h2 {
+            font-size: 14px;
+        }
+    }
+
     .modal-callbak {
         margin-top: -155px;
         width: 470px;
+        height: 310px;
         margin-left: -235px;
     }
 
-    // Стили модального окна
-    // Стили окна благодарности
     .modal-thank {
         margin-top: -140px;
         width: 316px;
@@ -107,485 +97,106 @@
         margin-left: -158px;
         padding: 5px;
     }
+}
 
-    .services,
-    .form,
-    .advantages,
-    .guarantee {
-        background-size: cover;
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .main-section {
+        background-image: url(img/bg_main-section_480.jpg);
     }
 
-    .main-screen,
-    .for-whom,
-    .achievements,
-    .steps {
-        &:after {
-            display: none;
-        }
-
-        &:before {
-            display: none;
-        }
+    .main-block {
+        padding: 65px 0 0px;
     }
 
-    .main-screen__slider {
-        .flickity-prev-next-button {
-            display: none;
-        }
+    .portfolio {
+        min-height: auto;
+        padding-bottom: 20px;
     }
 
-    .services__item {
-        width: 100%;
+    .reviews {
+        min-height: auto;
+        padding-bottom: 20px;
     }
 
-    .for-whom__top {
-        width: 90%;
-        text-align: center;
+    h1 {
+        font-size: 32px;
     }
 
-    .about__wrap {
-        flex-wrap: wrap;
-    }
-
-    .about__content {
-        width: 100%;
-    }
-
-    .about__slider {
-        width: 400px;
-        margin: 0 auto;
-        padding-top: 50px;
-
-        img {
-            max-width: 100%;
-        }
-
-        .flickity-prev-next-button.previous {
-            top: 10px;
-        }
-
-        .flickity-prev-next-button.next {
-            top: 10px;
-        }
+    p {
+        font-size: 12px;
     }
 
     .footer__wrap {
         flex-wrap: wrap;
         justify-content: center;
-    }
 
-    .footer__menu {
-        display: none;
-    }
-
-    .footer__cons {
-        padding: 5px 5px 20px;
-    }
-
-    .main-screen__slider__slide {
-        padding: 0;
-    }
-
-    .reviews {
-        background-color: #e9e9e9;
-        padding: 20px 10px 50px;
-    }
-
-    .achievements__wrap {
-        flex-wrap: wrap;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .achievements__block {
-        width: 100%;
-        margin: 0 auto;
-        height: 100px;
-    }
-
-    .form__wrap {
-        flex-wrap: wrap;
-        margin-top: 0;
-    }
-
-    .form__info,
-    .form__form {
-        width: 100%;
-    }
-
-    .advantages__wrap {
-        flex-wrap: wrap;
-    }
-
-    .advantages__item {
-        width: 50%;
-    }
-
-    .guarantee__left,
-    .guarantee__right,
-    .guarantee__bottom {
-        width: 100%;
-    }
-
-    .guarantee__item__block {
-        width: 50px;
-        min-width: 50px;
-        height: 50px;
-    }
-
-    .contact__wrap {
-        flex-wrap: wrap;
-    }
-
-    .adres {
-        margin: 0 auto;
-        width: 100%;
-
-        p {
-            width: 100%;
-            max-width: 100%;
+        div {
+            padding: 10px 0;
         }
     }
 
-    .kart {
-        margin: 20px auto;
-        width: 100%;
-    }
-
-    .menu {
-        &-link {
-            z-index: 9;
-            display: block;
-            width: 50px;
-            height: 50px;
-            position: fixed;
-            top: 24px;
-            right: 25px;
-
-            span,
-            span:before,
-            span:after {
-                display: block;
-                width: 30px;
-                height: 3px;
-                background-color: #ffffff;
-                position: absolute;
-                left: 50%;
-                margin-left: -15px;
-                top: 50%;
-                margin-top: -1px;
-
-            }
-
-            span:before {
-                content: '';
-                margin-top: -9px;
-                transition: all 0.2s;
-            }
-
-            span:after {
-                content: '';
-                margin-top: 5px;
-                transition: all 0.2s;
-            }
-
-            &_active span {
-                background-color: transparent;
-
-                &:before {
-                    transform: rotate(45deg);
-                    margin-top: 0;
-                }
-
-                &:after {
-                    transform: rotate(-45deg);
-                    margin-top: 0;
-                }
-            }
-        }
-
-        background: rgba(0, 0, 0, 0.9);
-        position: fixed;
-        width: 100vw;
-        height: 100vh;
-        z-index: 1;
-        display: flex;
+    .header__wrap {
+        flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
-        left: 100vw;
-        transition: all 0.5s;
-        top: 0;
-
-        ul {
-            list-style: none;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            text-align: center;
-
-            a {
-                display: block;
-                margin: 10px 0;
-            }
-        }
     }
 
-    .menu {
-        ul {
-            li {
-                a {
-                    &:hover {
-                        text-decoration: none;
-
-                        &:after {
-                            display: none;
-                        }
-                    }
-                }
-            }
-        }
+    .header__callback {
+        display: block;
+        text-align: center;
     }
 
-    .menu_active {
-        left: 0vw;
-    }
-
-    .main-menu {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-
-        li {
-            width: 100%;
-        }
-    }
-
-    header {
-        justify-content: flex-start;
-        flex-wrap: wrap;
-    }
-
-    .header__btn {
-        margin-right: 60px;
-    }
-
-    .footer__phone,
-    .header__phone {
-        margin: 0 10px;
-    }
-
-    .reviews__slide__img {
-        display: none;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (max-width: 480px) {
-
-    // Стили модального окна
     .modal-callbak {
-        margin-top: -160px;
-        width: 320px;
-        height: auto;
-        margin-left: -160px;
-    }
-
-    // Стили модального окна
-    // Стили окна благодарности
-    .modal-thank {
         margin-top: -160px;
         width: 320px;
         height: 320px;
         margin-left: -160px;
     }
 
-    // Стили окна благодарности
-    header {
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        padding-bottom: 5px;
-    }
-
-    .logo {
-        img {
-            max-width: 70%;
-        }
-    }
-
-    .main-screen {
-        padding: 0 0 20px;
-    }
-
-    .main-screen__slider-title {
-        font-size: 16pt;
-        text-align: center;
-    }
-
-    .main-screen__slider-text {
-        font-size: 18pt;
-        text-align: center;
-    }
-
-    .main-screen__slider {
-        .flickity-page-dots {
-            display: none;
-        }
-    }
-
-    .header__phone {
-        display: none;
-    }
-
-    .header__btn {
-        margin-right: 0px;
-        display: none;
-    }
-
-    .form__form {
-        padding: 10px 15px 20px;
-    }
-
-    .steps__item {
-        width: 220px;
-        height: 220px;
-    }
-
-    .guarantee__item {
-        p {
-            font-size: 12pt;
-        }
-    }
-
-    .reviews__user {
-        flex-wrap: wrap;
-    }
-
-    .reviews__user-info {
-        padding: 0;
-
-        p {
-            font-family: "Geometria-Bold";
-        }
-    }
-
-    .geo,
-    .tel,
-    .mail {
-        &:before {
-            display: none;
-        }
-    }
-
-    .achievements__content {
-        flex-wrap: wrap;
-    }
-
-    .achievements__item {
-        width: 50%;
-    }
-
-    .achievements__block {
-        p {
-            font-size: 13pt;
-        }
-    }
-
-    .menu-link {
-        right: 20px;
-        top: 7px;
-    }
-
-    .services__item {
-        p {
-            span {
-                font-size: 14pt;
-            }
-        }
-    }
-
-    .about__content {
-        padding-top: 0;
-    }
-
-    .advantages__item {
-        width: 100%;
-        padding-top: 15px;
-
-        img {
-            max-width: 30%;
-        }
-    }
-
-    .reviews__content {
-        padding: 0;
-    }
-
-    .footer__cons {
-        p {
-            margin: 5px 0;
-        }
-    }
-
-    .footer__cons__img {
-        img {
-            max-width: 90%;
-        }
+    .modal-thank {
+        margin-top: -160px;
+        width: 320px;
+        height: 320px;
+        margin-left: -160px;
     }
 }
 
 /**/
 
-/* Custom, iPhone Retina */
 
-@media only screen and (max-width: 320px) {}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}
 
 /**/
+
 
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
-
-@media only screen and (min-width: 320px) {}
+@media only screen and (min-width : 320px) {}
 
 /**/
+
 
 /* Extra Small Devices, Phones */
-
-@media only screen and (min-width: 480px) {
-    .header__wp {
-        display: none;
-    }
-}
+@media only screen and (min-width : 480px) {}
 
 /**/
+
 
 /* Small Devices, Tablets */
-
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width : 768px) {}
 
 /**/
+
 
 /* Medium Devices, Desktops */
-
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width : 992px) {}
 
 /**/
 
-/* Large Devices, Wide Screens */
 
-@media only screen and (min-width: 1200px) {}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
 
 /**/
