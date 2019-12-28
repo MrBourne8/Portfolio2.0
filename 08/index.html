@@ -36,565 +36,103 @@
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" type="text/css" href="libs/bootstrap/bootstrap-grid.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/swiper.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/allstyles.min.css" />
 </head>
 
 <body>
     <!-- Главный экран -->
-    <section class="main-screen">
+    <section class="section-1">
         <div class="container">
-            <!-- Шапка -->
-            <header>
-                <div class="logo">
-                    <img src="img/logo.png" alt="Logo">
-                </div>
-                <a href="#" class="menu-link ">
-                    <span></span>
-                </a>
-                <nav class="menu">
-                    <ul class="main-menu">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Наши услуги</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-                <div class="header__phone">
-                    <p class="header__number">+7(878) 78 87 78</p>
-                    <p class="header__mail">эл.почта@mail.ru</p>
-                </div>
-                <button class="header__btn btn-callbak">Заказать звонок</button>
-                <div class="header__wp">
-                    <a class="header__wp__wp" href="#"><img src="img/wp.png" alt="WhatsApp"></a>
-                    <a class="header__wp__number" href="#">1234567890</a>
-                </div>
-            </header> <!-- Шапка End-->
-            <div class="main-screen__slider swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="main-screen__slider__slide swiper-slide">
-                        <p class="main-screen__slider-text">Выгодная программа приобретения жилья в рассрочку на 10 лет:</p>
-                        <h1 class="main-screen__slider-title">Стоимость вашей квартиры и ежемесячные платежи меньше минимум в 2 раза,
-                            чем по ипотеке</h1>
-                        <p class="main-screen__slider-info">Унайте подробнее о программе, которая сэкономит Вам несколько миллионов
-                            тенге для ремонта или техники и мебели, получите расчет по своей квартире и сертификат на ценные призы</p>
-                        <button class="main-screen__slider__btn">Узнать подробнее</button>
-                    </div>
-                    <div class="main-screen__slider__slide swiper-slide">
-                        <p class="main-screen__slider-text">Выгодная программа приобретения жилья в рассрочку на 10 лет:</p>
-                        <h1 class="main-screen__slider-title">Стоимость вашей квартиры и ежемесячные платежи меньше минимум в 2 раза,
-                            чем по ипотеке</h1>
-                        <p class="main-screen__slider-info">Унайте подробнее о программе, которая сэкономит Вам несколько миллионов
-                            тенге для ремонта или техники и мебели, получите расчет по своей квартире и сертификат на ценные призы</p>
-                        <button class="main-screen__slider__btn">Узнать подробнее</button>
-                    </div>
-                    <div class="main-screen__slider__slide swiper-slide">
-                        <p class="main-screen__slider-text">Выгодная программа приобретения жилья в рассрочку на 10 лет:</p>
-                        <h1 class="main-screen__slider-title">Стоимость вашей квартиры и ежемесячные платежи меньше минимум в 2 раза,
-                            чем по ипотеке</h1>
-                        <p class="main-screen__slider-info">Унайте подробнее о программе, которая сэкономит Вам несколько миллионов
-                            тенге для ремонта или техники и мебели, получите расчет по своей квартире и сертификат на ценные призы</p>
-                        <button class="main-screen__slider__btn">Узнать подробнее</button>
-                    </div>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+            <div class="logo">
+                <img src="img/logo.jpg" alt="Logo">
+            </div>
+            <div class="main__img">
+                <img class="sm-hid" src="img/main_img.jpg" alt="Img">
+                <div class="main__img_480"></div>
+            </div>
+            <div class="video">
+                <iframe width="1169" height="520" src="https://www.youtube.com/embed/OfkAw4DvJ4U?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="images">
+                <img class="images__img01" src="img/01.jpg" alt="Img">
+                <img class="images__img02" src="img/02.jpg" alt="Img">
+                <img class="images__img03" src="img/03.jpg" alt="Img">
+                <img class="images__img04" src="img/04.jpg" alt="Img">
             </div>
         </div>
     </section>
     <!-- Главный экран End-->
     <!-- Название секции -->
-    <section class="services">
+    <section class="section-2">
         <div class="container">
-            <h2 class="section-title">Программа. Услуги</h2>
-            <div class="services__wrap">
-                <div class="services__item">
-                    <p class="wow bounceInLeft">Мы - не коммерческая организация и мы не строим жилые объекты.</p>
-                    <p class="wow bounceInRight"><span>Мы покупаем людям готовое жилье,</span></p>
-                    <p class="wow bounceInLeft">как на первичном, так и на вторичном рынке. Человек заселяется и вносит ежемесячные комфортные платежи
-                        согласно графику.</p>
-                </div>
-                <div class="services__item">
-                    <p class="wow bounceInLeft">Стоимость недвижимости может составлять от 5 000 000 тенге до 50 000 000 тенге, а</p>
-                    <p><span class="wow bounceInRight">переплата не более 2 400 000 тенге</span></p>
-                    <p class="wow bounceInLeft">за весь период рассрочки.</p>
-                </div>
-                <div class="services__item">
-                    <p><span class="wow bounceInRight">Это современная альтернатива ипотеки</span></p>
-                    <p class="wow bounceInLeft">с низким процентом рассрочки и возможностью быстрого погашения.</p>
-                </div>
-                <div class="services__item">
-                    <p>с низким процентом рассрочки и возможностью быстрого погашения.</p>
-                    <p><span class="wow bounceInRight">дешевле минимум в два раза,</span></p>
-                    <p class="wow bounceInLeft">чем квартира, приобретенная в ипотеку.</p>
-                </div>
+            <div class="price">
+                <p>Входной билет для девушек - 1500р + коктейль </p>
+                <p>Для мужчин - 10 000р</p>
+                <p>Депозиты столов 100-я предоплата</p>
+                <p>При оплате стола, входной билет для женщин бесплатный, для мужчин 5000р</p>
             </div>
-        </div>
-    </section>
-    <!-- Название секции End-->
-    <!-- Название секции -->
-    <section class="for-whom">
-        <div class="container">
-            <div class="for-whom__top">Для кого подходят наши программы:</div>
-            <div class="for-whom__wrap">
-                <div class="for-whom__item wow fadeInLeft">
-                    <p>Для резидентов и граждан, имеющих Вид на жительство</p>
-                </div>
-                <div class="for-whom__item wow fadeInLeft">
-                    <p>Для людей со средним достатком</p>
-                </div>
-                <div class="for-whom__item wow fadeInRight">
-                    <p>Для людей с плохой кредитной историей</p>
-                </div>
-                <div class="for-whom__item wow fadeInRight">
-                    <p>Для людей, чьи жизненные принципы не позволяют брать в кредит или под %</p>
-                </div>
+            <div class="time">
+                <p>Режим работы</p>
+                <p>23.00-09.00</p>
             </div>
-        </div>
-    </section>
-    <!-- Название секции End-->
-    <!-- Название секции -->
-    <section class="about">
-        <div class="container">
-            <h2 class="section-title">О нас</h2>
-            <div class="about__wrap">
-                <div class="about__content">
-                    <h3 class="about__content__title">Что такое Кооперация</h3>
-                    <p>
-                        1. Кооперация – добровольное объединение людей для решения конкретной задачи.
-                    </p>
-                    <br>
-                    <p>
-                        2. Жилищным кооперативом (ЖК) признаётся добровольное объединение граждан и (или) юридических лиц на основе
-                        членства в целях удовлетворения потребности граждан в жилье.
-                    </p>
-                    <br>
-                    <p>
-                        3. Жилищный кооператив (ЖК) является некоммерческой организацией, созданной в форме потребительского
-                        кооператива, и не ставит своей целью извлечение прибыли.
-                    </p>
-                </div>
-                <div class="about__slider swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="about__slider__slide swiper-slide">
-                            <a href="img/slider_sert/01.jpg" target="new"><img src="img/slider_sert/min/01.jpg" alt="Sertificate"></a>
-                        </div>
-                        <div class="about__slider__slide swiper-slide">
-                            <a href="img/slider_sert/02.jpg" target="new"><img src="img/slider_sert/min/02.jpg" alt="Sertificate"></a>
-                        </div>
-                        <div class="about__slider__slide swiper-slide">
-                            <a href="img/slider_sert/03.jpg" target="new"><img src="img/slider_sert/min/03.jpg" alt="Sertificate"></a>
-                        </div>
-                    </div>
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
+            <div class="shem">
+                <p>Схема столов</p>
+                <img src="img/shem.jpg" alt="Shem">
             </div>
-            <div class="about__info">
-                <h3 class="about__info__title">О нас</h3>
-                <p>
-                    Жилищный кооператив «Бест Вей»- это современная альтернатива ипотеки с низким процентом рассрочки.
-                    <br>
-                    Зарегистрирован в Казахстане 04.12.2014 года (справа свидетельство)
-                    <br>
-                    30 апреля 2015г. в ходе проверки было получено официальное письмо от прокуратуры Казахстана, в котором
-                    указано, что «Жилищный Кооператив «Бест Вей» работает в рамках закона РК и в деянии отсутствует состав
-                    уголовного правонарушения» (справа письмо)
-                    <br>
-                    Самый первый и надежный Кооператив в Казахстане – более 5 лет на рынке
-                    За 5 лет куплено около 400 квартир на общую сумму более 5 млрд. тенге
-                    Законодательная база:
-                    <br>
-                    -Гражданский Кодекс Республики Казахстан (ст.ст. 41, 108)
-                    <br>
-                    -Закон Республики Казахстан «О жилищных отношениях»
-                    <br>
-                    -Закон Республики Казахстан «О некоммерческих организациях»
-                    <br>
-                    - Закон Республики Казахстан «О потребительском кооперативе
+            <div class="reservation">
+                <h2>забронировать столик</h2>
+                <p>Пожалуйста, заполните форму ниже (указав номер столика
+                    и необходимую информацию для связи) и наш менеджер свяжется с Вами для уточнения деталей,
+                    <br>или позвоните по телефону +7 (495) 607-47-16
                 </p>
-            </div>
-        </div>
-    </section>
-    <!-- Название секции End-->
-    <!-- Название секции -->
-    <section class="achievements">
-        <div class="container">
-            <div class="achievements__wrap">
-                <div class="achievements__block">
-                    <p>Достижения в цифрах</p>
-                </div>
-                <div class="achievements__content">
-                    <div class="achievements__item">
-                        <p class="achievements__digit">3</p>
-                        <p class="achievements__text">программы приобретения жилья под 0%</p>
-                    </div>
-                    <div class="achievements__item">
-                        <p class="achievements__digit">6</p>
-                        <p class="achievements__text">лет успешной работы компании Best Way</p>
-                    </div>
-                    <div class="achievements__item">
-                        <p class="achievements__digit">4000</p>
-                        <p class="achievements__text">Квартир приобретено</p>
-                    </div>
-                    <div class="achievements__item">
-                        <p class="achievements__digit">6000</p>
-                        <p class="achievements__text">Довольных клиентов и отзывов</p>
-                    </div>
-                    <div class="achievements__item">
-                        <p class="achievements__digit">3</p>
-                        <p class="achievements__text">страны где мы предоставляем свои услуги</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Название секции End-->
-    <!-- Название секции -->
-    <section class="form">
-        <div class="container">
-            <div class="form__wrap">
-                <div class="form__info">
-                    <h4 class="form__info__title">Бесплатная консультация</h4>
-                    <br>
-                    <h4 class="form__info__title">Вам нужно жилье?</h4>
-                    <p>Заполните заявку и наш специалист бесплатно проконсультирует Вас касательно всех вопросов</p>
-                    <br>
-                </div>
-                <div class="form__form">
-                    <form class="consultation">
-                        <h4>Заполните форму</h4>
-                        <p>Заполните форму и наш менеджер перезвонит Вам в течении 1 минуты!</p>
-                        <input type="text" required name="name" placeholder="Ваше имя">
-                        <input type="text" required name="mail" placeholder="Ваш телефон">
-                        <button type="submit" class="consultation__btn">ОТПРАВИТЬ</button>
+                <p>email: info@egoistka.ru</p>
+                <div class="main-form">
+                    <form action="/new-2020#wpcf7-f275-o1" method="post" class="wpcf7-form form_main" novalidate="novalidate">
+                        <input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" type="text" name="name" required placeholder="Имя*">
+                        <input class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" type="text" name="mail" required placeholder="E-mail*">
+                        <input class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" type="text" name="phone" required placeholder="Телефон*">
+                        <input class="wpcf7-form-control wpcf7-text theme" type="text" name="theme" placeholder="Тема письма">
+                        <textarea class="wpcf7-form-control wpcf7-textarea" rows="10" placeholder="Текст письма"></textarea>
+                        <div class=" col-md-12">
+                            <p class="content">Введите символы: <input type="hidden" name="_wpcf7_captcha_challenge_captcha-170" value="230894553"><img class="wpcf7-form-control wpcf7-captchac wpcf7-captcha-captcha-170" width="72" height="24" alt="captcha" src="http://egoistka-club.ru/wp-content/uploads/wpcf7_captcha/230894553.png"><span class="wpcf7-form-control-wrap captcha-170"><input type="text" name="captcha-170" value="" size="4" maxlength="4" class="wpcf7-form-control wpcf7-captchar wpcf7-not-valid" autocomplete="off" aria-invalid="true"></p>
+                        </div>
+                        <button class="form__btn">Отправить</button>
+                        <div class="wpcf7-response-output wpcf7-display-none"></div>
                     </form>
                 </div>
             </div>
+            <!-- Подвал -->
+            <footer>
+                <div class="container">
+                    <a class="menu-link ">
+                        <span></span>
+                    </a>
+                    <nav class="menu">
+                        <ul class="main-menu">
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Афиша</a></li>
+                            <li><a href="#">Мужчины</a></li>
+                            <li><a href="#">Галлерея</a></li>
+                            <li><a href="#">Crazy Меню</a></li>
+                            <li><a href="#">Меню</a></li>
+                            <li><a href="#">Работа</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <p>© Egoistka club - 2019 | All Rights Reserved</p>
+                </div>
+            </footer>
+            <!-- Подвал End-->
         </div>
     </section>
     <!-- Название секции End-->
-    <!-- Название секции -->
-    <section class="steps">
-        <div class="container">
-            <h2 class="section-title">5 Шагов к своей квартире</h2>
-            <div class="steps__wrap">
-                <div class="steps__item step_1 wow bounceInDown" data-wow-delay=".5s">
-                    <p>Консультацию у специалиста, заключение договоров с ЖК «Бест Вей»</p>
-                </div>
-                <div class="steps__item step_3 wow bounceInDown" data-wow-delay="1.5s">
-                    <p>Ежемесячная оплата комфортного платежа за свою квартиру</p>
-                </div>
-                <div class="steps__item step_5 wow bounceInDown" data-wow-delay="2.5s">
-                    <p>Выбор понравившейся квартиры и регистрация документов в ЦОНе</p>
-                </div>
-                <div class="steps__item step_2 wow bounceInUp" data-wow-delay="1.0s">
-                    <p>Ожидание с предвкушением своей очереди (10-12 месяцев)</p>
-                </div>
-                <div class="steps__item step_4 wow bounceInUp" data-wow-delay="2.0s">
-                    <p>Внесение первоначального взноса, постановка в очередь</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Название секции End-->
-    <!-- Название секции -->
-    <section class="advantages">
-        <div class="container">
-            <h2 class="section-title">Приемущества. Почему Мы!</h2>
-            <div class="advantages__wrap">
-                <div class="advantages__item wow bounceInLeft">
-                    <img src="img/advantages/1.png" alt="Icon">
-                    <p>Выгодные условия</p>
-                </div>
-                <div class="advantages__item wow bounceInLeft">
-                    <img src="img/advantages/2.png" alt="Icon">
-                    <p>Конфиденциальность и полная прозрачность ЖК</p>
-                </div>
-                <div class="advantages__item wow bounceInLeft">
-                    <img src="img/advantages/3.png" alt="Icon">
-                    <p>Деятельность в рамках законодательства РК</p>
-                </div>
-                <div class="advantages__item wow bounceInLeft">
-                    <img src="img/advantages/4.png" alt="Icon">
-                    <p>Возраст от 18 лет и без ограничений</p>
-                </div>
-                <div class="advantages__item wow bounceInRight">
-                    <img src="img/advantages/5.png" alt="Icon">
-                    <p>Нужно только удостоверение личности</p>
-                </div>
-                <div class="advantages__item wow bounceInRight">
-                    <img src="img/advantages/6.png" alt="Icon">
-                    <p>Купить жилье можно в любом населенном пункте</p>
-                </div>
-                <div class="advantages__item wow bounceInRight">
-                    <img src="img/advantages/7.png" alt="Icon">
-                    <p>Кредитная история не имеет значения</p>
-                </div>
-                <div class="advantages__item wow bounceInRight">
-                    <img src="img/advantages/8.png" alt="Icon">
-                    <p>Отсрочка ежемесячного платежа в случае финансовых трудностей</p>
-                </div>
-            </div>
-            <button class="advantages__btn btn-callbak">Заказать звонок</button>
-        </div>
-    </section>
-    <!-- Название секции End-->
-    <!-- Название секции -->
-    <section class="guarantee">
-        <div class="container">
-            <h2 class="section-title">Гарантии</h2>
-            <div class="guarantee__wrap">
-                <div class="guarantee__left">
-                    <div class="guarantee__item">
-                        <div class="guarantee__item__block">01.</div>
-                        <p>Пайщик и все члены его семьи могут прописаться в жилое помещение</p>
-                    </div>
-                    <div class="guarantee__item">
-                        <div class="guarantee__item__block">02.</div>
-                        <p>Работа ЖК в рамках Жилищного и Гражданского Кодексов РК</p>
-                    </div>
-                    <div class="guarantee__item">
-                        <div class="guarantee__item__block">03.</div>
-                        <p>Кооператив не может обанкротиться, так как не является коммерческой организацией. Никто извне не может его закрыть. Кооператив может ликвидироваться только, если все члены кооператива проголосуют за закрытие на общем собрание пайщиков.</p>
-                    </div>
-                </div>
-                <div class="guarantee__right">
-                    <div class="guarantee__item">
-                        <div class="guarantee__item__block">04.</div>
-                        <p>Целевой расчетный счет ЖК «Бест Вей» в Казпочте.</p>
-                    </div>
-                    <div class="guarantee__item">
-                        <div class="guarantee__item__block">05.</div>
-                        <p>Гарантия возврата 100% паевых средств при выходе из ЖК (согласно законодательству РК) в течении 2-х месяцев.</p>
-                    </div>
-                    <div class="guarantee__item">
-                        <div class="guarantee__item__block">06.</div>
-                        <p>Заключается договор о членстве и договор найма. Долгосрочный договор найма регистрируется в Департаменте юстиции.</p>
-                    </div>
-                </div>
-                <div class="guarantee__bottom">
-                    <div class="guarantee__item">
-                        <div class="guarantee__item__block">07.</div>
-                        <p>Не учитывается инфляция. Пайщик выплачивает фиксированную стоимость объекта недвижимости в тенге на протяжении всего срока.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Название секции End-->
-    <!-- Название секции -->
-    <section class="reviews">
-        <div class="container">
-            <h2 class="section-title">Отзывы</h2>
-            <div class="reviews__wrap">
-                <div class="reviews__slider swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="reviews__slider__slide swiper-slide">
-                            <div class="reviews__slide__img">
-                                <img src="img/reviews/01.jpg" alt="Image">
-                            </div>
-                            <div class="reviews__content">
-                                <div class="reviews__user">
-                                    <img src="img/reviews/users/01.jpg" alt="User">
-                                    <div class="reviews__user-info">
-                                        <p>Айжанов Руслан</p>
-                                        <!-- <p>37 лет</p>
-                                            <p>г. Москва</p> -->
-                                    </div>
-                                </div>
-                                <div class="reviews__text">
-                                    <p class="reviews__title">Отзыв</p>
-                                    <p>
-                                        Я узнал о кооперативе Бест Вей в 2016 году, летя в самолете, из журнала «Аспан». Начал искать информацию в интернете. Нашел консультанта, встретился с ним. Мы с супругой решили вложиться в Жилищный кооператив, встали в очередь в том же году. И уже через 7 месяцев наша очередь подошла, мы выбрали 3-х комнатную квартиру в ЖК «Аль Фараби» в г. Алматы за 28 млн. тенге. В настоящее время мы встали в очередь еще на две квартиры. Благодарим ЖК «Бест Вей» за осуществление мечт.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="reviews__slider__slide swiper-slide">
-                            <div class="reviews__slide__img">
-                                <img src="img/reviews/01.jpg" alt="Image">
-                            </div>
-                            <div class="reviews__content">
-                                <div class="reviews__user">
-                                    <img src="img/reviews/users/02.jpg" alt="User">
-                                    <div class="reviews__user-info">
-                                        <p>Зухра</p>
-                                        <!-- <p>37 лет</p>
-                                            <p>г. Москва</p> -->
-                                    </div>
-                                </div>
-                                <div class="reviews__text">
-                                    <p class="reviews__title">Отзыв</p>
-                                    <p>
-                                        Здравствуйте, меня зовут Зухра. Мы живем в Луговом Жамбылской области. Всегда мечтали иметь квартиру в г. Алматы. По возрасту ипотечные программы мне не подходили и я искала варианты. Моя знакомая посоветовала обратиться в ЖК Бест Вей. Изучив все подробно, я вступила в кооператив на 2 квартиры по двум программам: за первую я внесла 35% в декабре 2017 года, в очереди стояла 9 месяцев и августе 2018 года купила 3-х комнатную квартиру в г. Каскелен Алматинской области за 15 млн. тенге с ежемесячным платежом 91250 тенге. На вторую квартиру я встала по накопительной программе, планирую купить в самом городе Алматы. Я довольна.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="reviews__slider__slide swiper-slide">
-                            <div class="reviews__slide__img">
-                                <img src="img/reviews/01.jpg" alt="Image">
-                            </div>
-                            <div class="reviews__content">
-                                <div class="reviews__user">
-                                    <img src="img/reviews/users/01.jpg" alt="User">
-                                    <div class="reviews__user-info">
-                                        <p>Уточнить</p>
-                                        <!-- <p>37 лет</p>
-                                            <p>г. Москва</p> -->
-                                    </div>
-                                </div>
-                                <div class="reviews__text">
-                                    <p class="reviews__title">Отзыв</p>
-                                    <p>
-                                        Когда я собралась покупать квартиру в ипотеку, у меня была надежда на Жилстойсбербанк, но мне там отказали. Я нашла еще более выгодный, доступный вариант , а самое главное мне понравилась прозрачность работы кооператива, что на сайте в своем личном кабинете я могла видеть и наблюдать за продвижением своей очереди. 15 ноября 2017 года я вступила в ЖК Бест Вей, в очередь встала в мае 2018 года. За 11 месяцев подошла моя очередь и уже в апреле 2019 года мы отметили новоселье в своей новой 1-комнатной квартиру за 9 600 000 тенге, ежемесячный платеж составляет всего 59 000 тенге.
-                                        Как говориться аппетит приходит во время еды и мы решили купить еще одну, но уже 3-х комнатную! Я была приятно удивлена, так как за приобретение второго жилье через ЖК, я освобождаюсь от уплаты членского взноса и получаю 50% скидку на вступительный взнос. Всего я сэкономила 1 640 000 тенге, переплата за вторую квартиру за 10 лет составит 740 000 тенге. Таких выгодных условий точно нигде нет! Боже мой, как же я благодарна, что у нас в Казахстане есть такой кооператив.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="reviews__slider__slide swiper-slide">
-                            <div class="reviews__slide__img">
-                                <img src="img/reviews/01.jpg" alt="Image">
-                            </div>
-                            <div class="reviews__content">
-                                <div class="reviews__user">
-                                    <img src="img/reviews/users/03.jpg" alt="User">
-                                    <div class="reviews__user-info">
-                                        <p>Есмагамбетова Клара</p>
-                                        <!-- <p>37 лет</p>
-                                            <p>г. Москва</p> -->
-                                    </div>
-                                </div>
-                                <div class="reviews__text">
-                                    <p class="reviews__title">Отзыв</p>
-                                    <p>
-                                        С Жилищным Кооперативом «Бест Вей-Недвижимость» я знакома около 4 лет. 2 года я изучала, присматривалась. Убедилась, что кооператив работает по закону РК, очередь движется быстро, что это не очередная пирамида, условия хорошие. Если бы не ЖК «Бест Вей» даже не знаю, смогли бы мы купить за 2 года 2 квартиры, наверное нет, 2 ипотеки моя семья точно бы не осилила. Нашей радости нет предела. Вот уже на третью квартиру встали в очередь. Дай Аллах еще одно новоселье отмечать будем. Очень рекомендую ЖК Бест Вей, проверено годами и людьми.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="reviews__slider__slide swiper-slide">
-                            <div class="reviews__slide__img">
-                                <img src="img/reviews/01.jpg" alt="Image">
-                            </div>
-                            <div class="reviews__content">
-                                <div class="reviews__user">
-                                    <img src="img/reviews/users/04.jpg" alt="User">
-                                    <div class="reviews__user-info">
-                                        <p>Сырлыбай Ерасыл</p>
-                                        <!-- <p>37 лет</p>
-                                            <p>г. Москва</p> -->
-                                    </div>
-                                </div>
-                                <div class="reviews__text">
-                                    <p class="reviews__title">Отзыв</p>
-                                    <p>
-                                        2 февраля 2018 года я вступил в кооператив «Бест Вей-Недвижимость» и уже 3 октября того же года подошла моя очередь. Мы купили однокомнатную квартиру в г. Алматы в районе Торгового Центра «Глобус» за 13 млн. тенге с ремонтом. Ежемесячный платеж оставляет всего 80 416 тенге. До того как обратиться в кооператив, я обошел много банков, мне везде отказывали, потому что у меня не было пенсионных отчислений и я не мог подтвердить свой доход. Сейчас моя семья очень довольна, счастлива и благодарна кооперативу «Бет Вей». Я поверил, вступил и мое доверие было оправдано!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Название секции End-->
-    <!-- Название секции -->
-    <section class="contact">
-        <div class="container">
-            <h2 class="section-title">Контакты</h2>
-            <div class="contact__wrap">
-                <div class="adres">
-                    <p class="adres__title geo">Город Москва</p>
-                    <p class="adres__title tel">8 702 189 67 25</p>
-                    <p class="adres__title mail">Эл.почта@mail.ru</p>
-                    <p class="adress__green">Остались вопросы?</p>
-                    <p>Мы вам перезвоним в течении 1 минуты!</p>
-                    <button class="adres__btn btn-callbak">Заказать звонок</button>
-                </div>
-                <div class="kart">
-                    <iframe src="https://yandex.ru/map-widget/v1/-/CGGPQWzx"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Название секции End-->
-    <!-- Подвал -->
-    <footer>
-        <div class="container">
-            <div class="footer__wrap">
-                <div class="footer__logo">
-                    <img src="img/logo.png" alt="Logo">
-                </div>
-                <div class="footer__menu">
-                    <ul class="footer__main-menu">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Наши услуги</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </div>
-                <div class="footer__cons">
-                    <div class="footer__cons__img">
-                        <img src="img/cons.jpg" alt="Img">
-                    </div>
-                    <div class="footer__cons__info">
-                        <p class="footer__cons__name">Абдильденова Альфия Ирановна</p>
-                        <p class="footer__cons__age">8 702 189 67 25</p>
-                        <p class="footer__cons__cons">Консультант</p>
-                    </div>
-                </div>
-                <button class="footer__btn btn-callbak">Заказать звонок</button>
-            </div>
-        </div>
-    </footer>
-    <!-- Подвал End-->
-    <!-- Модальное окно -->
-    <div class="modal-callbak">
-        <div class="close-link">x</div>
-        <h2>ЗАКАЗАТЬ ЗВОНОК</h2>
-        <form class="consultation">
-            <h4>Заполните форму</h4>
-            <p>Заполните форму и наш менеджер перезвонит Вам в течении 1 минуты!</p>
-            <input type="text" required name="name" placeholder="Ваше имя">
-            <input type="text" required name="mail" placeholder="Ваш телефон">
-            <button type="submit" class="consultation__btn">ОТПРАВИТЬ</button>
-        </form>
-    </div>
-    <!-- Модальное окно End-->
-    <!-- Модальное окно благодарности -->
-    <div class="modal-thank">
-        <h2>Спасибо!
-            <br>Наш менеджер свяжется с Вами</h2>
-    </div>
-    <!-- Модальное окно благодарности End-->
-    <!-- Подложка -->
-    <div class="overlay"></div>
-    <!-- Подложка End -->
     <!--[if lt IE 9]>
     <script src="libs/html5shiv/es5-shim.min.js"></script>
     <script src="libs/html5shiv/html5shiv.min.js"></script>
     <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
     <script src="libs/respond/respond.min.js"></script>
 <![endif]-->
-    <script src="libs/jquery/jquery-3.3.1.min.js"></script>
-    <script src="libs/swiper/swiper.min.js"></script>
-    <script src="libs/animate/wow.min.js"></script>
-    <script src="libs/waypoints/jquery.waypoints.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/common.min.js"></script>
     <!-- Yandex.Metrika counter -->
     <!-- /Yandex.Metrika counter -->

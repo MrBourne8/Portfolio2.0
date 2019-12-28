@@ -1,7 +1,0 @@
-{
-  "less.compile": {
-    "out": "${workspaceFolder}\\css\\",
-    "compress": true,
-  },
-  "editor.formatOnSave": true,
-}

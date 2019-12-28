@@ -45,7 +45,6 @@ $('document').ready(function() {
     ]
   });
   /*Настройки слайдера ПОРТФОЛИО*/
-
   /*Навигация по страницу, прокрутка до якоря*/
   $("a[href*='#']").on("click", function(e){
     var anchor = $(this);
