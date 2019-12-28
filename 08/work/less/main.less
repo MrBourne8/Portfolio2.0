@@ -23,6 +23,7 @@ body {
     font-family: "Roboto";
     text-align: center;
     color: #ffbc3f;
+    background-color: #000;
 }
 
 // Общие стили
@@ -100,7 +101,7 @@ body {
 
 // Название секции
 .section-2 {
-    padding: 100px 0 10px;
+    padding: 100px 0 50px;
     background-image: url(img/section-2__bg.jpg);
     background-repeat: no-repeat;
     background-position: center top;
@@ -194,6 +195,8 @@ body {
     justify-content: space-between;
     list-style: none;
     padding: 0;
+    max-width: 700px;
+    margin: 0 auto;
 
     a {
         color: #ffbc3f;
@@ -204,8 +207,13 @@ body {
 
 .menu {
     padding: 10px 0;
-    max-width: 700px;
-    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 // Название секции
